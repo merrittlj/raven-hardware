@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EPD")(type "KiCad")(uri "${KIPRJMOD}/EPD.pretty")(options "")(descr ""))
+)
