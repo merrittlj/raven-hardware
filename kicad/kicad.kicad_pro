@@ -239,7 +239,8 @@
       "EPD"
     ],
     "pinned_symbol_libs": [
-      "EPD"
+      "EPD",
+      "Raven"
     ]
   },
   "meta": {
