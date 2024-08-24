@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.762 21.59 0)
+			(at -6.858 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "DA7280"
-			(at 11.938 21.59 0)
+			(at 4.318 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -1.27 5.08 0)
+			(at -8.89 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -1.27 5.08 0)
+			(at -8.89 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "DA7280_1_1"
 			(rectangle
-				(start 0 20.32)
-				(end 15.24 0)
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,7 +62,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 2.54 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "GPI_2"
 					(effects
@@ -80,7 +80,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 11.43 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -98,7 +98,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 13.97 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -116,7 +116,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 17.78 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "nIRQ"
 					(effects
@@ -134,7 +134,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 5.08 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "GPI_1"
 					(effects
@@ -152,7 +152,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 7.62 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "GPI_0"
 					(effects
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 10.16 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 17.78 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "OUTP"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 5.08 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "GND_1"
 					(effects
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 2.54 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "GND_2"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 15.24 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "OUTN"
 					(effects
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 7.62 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "VDDIO"
 					(effects
