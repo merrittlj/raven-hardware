@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.858 11.43 0)
+			(at -6.858 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "DA7280"
-			(at 4.318 11.43 0)
+			(at 5.842 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "DA7280_1_1"
 			(rectangle
-				(start -7.62 10.16)
-				(end 7.62 -10.16)
+				(start -7.62 13.97)
+				(end 7.62 -16.51)
 				(stroke
 					(width 0)
 					(type default)
@@ -118,7 +118,7 @@
 			(pin output line
 				(at -10.16 7.62 0)
 				(length 2.54)
-				(name "nIRQ"
+				(name "~{IRQ}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 0 180)
+				(at -1.27 16.51 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 7.62 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "OUTP"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 -5.08 180)
+				(at -1.27 -19.05 90)
 				(length 2.54)
 				(name "GND_1"
 					(effects
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 -7.62 180)
+				(at 1.27 -19.05 90)
 				(length 2.54)
 				(name "GND_2"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 5.08 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "OUTN"
 					(effects
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -2.54 180)
+				(at 1.27 16.51 270)
 				(length 2.54)
 				(name "VDDIO"
 					(effects
