@@ -1182,23 +1182,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at -14.732 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TPD2S300"
+			(at -6.096 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "YFF0009AJAJ"
+			(at -3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,6 +1216,15 @@
 			)
 		)
 		(property "Description" ""
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "usb esd"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1224,9 +1233,22 @@
 				(hide yes)
 			)
 		)
+		(symbol "TPD2S300_0_1"
+			(rectangle
+				(start -15.24 19.05)
+				(end -1.27 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(symbol "TPD2S300_1_1"
 			(pin input line
-				(at -17.78 5.08 0)
+				(at -17.78 16.51 0)
 				(length 2.54)
 				(name "C_CC1"
 					(effects
@@ -1244,7 +1266,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 2.54 0)
+				(at -17.78 3.81 0)
 				(length 2.54)
 				(name "VBIAS"
 					(effects
@@ -1262,7 +1284,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 0 0)
+				(at -17.78 13.97 0)
 				(length 2.54)
 				(name "C_CC2"
 					(effects
@@ -1280,7 +1302,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -2.54 0)
+				(at 1.27 16.51 180)
 				(length 2.54)
 				(name "CC1"
 					(effects
@@ -1298,7 +1320,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -5.08 0)
+				(at 1.27 3.81 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1316,7 +1338,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -7.62 0)
+				(at 1.27 13.97 180)
 				(length 2.54)
 				(name "CC2"
 					(effects
@@ -1334,7 +1356,7 @@
 				)
 			)
 			(pin open_collector line
-				(at -17.78 -10.16 0)
+				(at 1.27 6.35 180)
 				(length 2.54)
 				(name "~{FLT}"
 					(effects
@@ -1352,7 +1374,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -12.7 0)
+				(at 1.27 8.89 180)
 				(length 2.54)
 				(name "VPWR"
 					(effects
@@ -1370,7 +1392,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -15.24 0)
+				(at -17.78 6.35 0)
 				(length 2.54)
 				(name "VM"
 					(effects

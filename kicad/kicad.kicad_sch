@@ -8647,7 +8647,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 233.68 121.92 0)
+		(at 236.22 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8656,7 +8656,7 @@
 		(fields_autoplaced yes)
 		(uuid "23188528-3d84-4f1c-be57-303dbb50e346")
 		(property "Reference" "#PWR043"
-			(at 233.68 125.73 0)
+			(at 236.22 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8665,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 233.68 116.84 0)
+			(at 236.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 121.92 0)
+			(at 236.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 121.92 0)
+			(at 236.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 233.68 121.92 0)
+			(at 236.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11632,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 137.16 0)
+		(at 236.22 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11641,7 +11641,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fb0c14a-4e7e-410c-861f-971b40f147de")
 		(property "Reference" "#PWR044"
-			(at 233.68 143.51 0)
+			(at 236.22 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,7 +11650,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 142.24 0)
+			(at 236.22 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,7 +11659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 137.16 0)
+			(at 236.22 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +11668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 137.16 0)
+			(at 236.22 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11677,7 +11677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 137.16 0)
+			(at 236.22 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +13655,7 @@
 	)
 	(symbol
 		(lib_id "Memory_EEPROM:M95256-WMN6P")
-		(at 233.68 129.54 0)
+		(at 236.22 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13664,7 +13664,7 @@
 		(fields_autoplaced yes)
 		(uuid "d20edbde-af10-413c-905f-c6975f8bdc24")
 		(property "Reference" "U4"
-			(at 235.8741 119.38 0)
+			(at 238.4141 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +13673,7 @@
 			)
 		)
 		(property "Value" "M95P32-I"
-			(at 235.8741 121.92 0)
+			(at 238.4141 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,7 +13682,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 233.68 129.54 0)
+			(at 236.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13691,7 +13691,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/m95p32-i.pdf"
-			(at 233.68 129.54 0)
+			(at 236.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13700,7 +13700,7 @@
 			)
 		)
 		(property "Description" "IC EEPROM 32MBIT SPI 80MHZ 8SO"
-			(at 233.68 129.54 0)
+			(at 236.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
