@@ -395,6 +395,18 @@
     [
       "32d68f15-4a24-4df9-a303-ad9032613b76",
       "USB-C"
+    ],
+    [
+      "ffa7317f-863a-4ef0-bd29-bd7cc2822f7b",
+      "Battery Management"
+    ],
+    [
+      "0b88743c-b183-4be0-afee-bdc67a5fc676",
+      "E-Paper Display"
+    ],
+    [
+      "6e1279b2-387a-4a79-8fd5-6fdc8d551df2",
+      "Haptics"
     ]
   ],
   "text_variables": {}

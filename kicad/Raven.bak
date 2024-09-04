@@ -1319,8 +1319,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at -2.54 30.48 0)
+		(property "Reference" "EPD_FPC"
+			(at 0.508 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,10 +1674,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 5.08 0)
 				(length 3.81)
-				(name "RST"
+				(name "RES"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1692,7 +1692,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 2.54 0)
 				(length 3.81)
 				(name "DC"
@@ -1710,7 +1710,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 0 0)
 				(length 3.81)
 				(name "CS"
@@ -1728,10 +1728,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 -2.54 0)
 				(length 3.81)
-				(name "CLK"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1746,10 +1746,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -5.08 0)
 				(length 3.81)
-				(name "DIN"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1764,7 +1764,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -7.62 0)
 				(length 3.81)
 				(name "VDDIO"
@@ -1782,7 +1782,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -10.16 0)
 				(length 3.81)
 				(name "VCI"
@@ -1800,7 +1800,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -12.7 0)
 				(length 3.81)
 				(name "VSS"
@@ -1818,7 +1818,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -15.24 0)
 				(length 3.81)
 				(name "VDD"
@@ -1836,7 +1836,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -17.78 0)
 				(length 3.81)
 				(name "VPP"
@@ -1854,7 +1854,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -7.62 25.4 0)
 				(length 3.81)
 				(name "GDR"
@@ -1872,7 +1872,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -20.32 0)
 				(length 3.81)
 				(name "VSH1"
@@ -1890,7 +1890,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -22.86 0)
 				(length 3.81)
 				(name "VGH"
@@ -1908,7 +1908,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -25.4 0)
 				(length 3.81)
 				(name "VSL"
@@ -1926,7 +1926,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -27.94 0)
 				(length 3.81)
 				(name "VGL"
@@ -1944,7 +1944,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -30.48 0)
 				(length 3.81)
 				(name "VCOM"
@@ -1962,7 +1962,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 22.86 0)
 				(length 3.81)
 				(name "RESE"
@@ -1998,7 +1998,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 17.78 0)
 				(length 3.81)
 				(name "VSH2"
@@ -2016,7 +2016,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 15.24 0)
 				(length 3.81)
 				(name "TSCL"
@@ -2034,7 +2034,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 12.7 0)
 				(length 3.81)
 				(name "TSDA"
@@ -2052,7 +2052,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 10.16 0)
 				(length 3.81)
 				(name "BS1"
@@ -2070,7 +2070,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -7.62 7.62 0)
 				(length 3.81)
 				(name "BUSY"
@@ -2489,7 +2489,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -6.35 0)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "VBIAS"
 					(effects
@@ -2579,7 +2579,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 10.16 -3.81 180)
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "~{FLT}"
 					(effects
@@ -2597,7 +2597,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -1.27 0)
+				(at -8.89 -3.81 0)
 				(length 2.54)
 				(name "VPWR"
 					(effects
@@ -2615,7 +2615,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -3.81 0)
+				(at -8.89 -6.35 0)
 				(length 2.54)
 				(name "VM"
 					(effects
