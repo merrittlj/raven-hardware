@@ -397,8 +397,8 @@
       "USB-C"
     ],
     [
-      "ffa7317f-863a-4ef0-bd29-bd7cc2822f7b",
-      "Battery Management"
+      "d2226d13-9ee7-410c-817d-a66f223af34c",
+      "Battery Management V2"
     ],
     [
       "0b88743c-b183-4be0-afee-bdc67a5fc676",
@@ -407,6 +407,14 @@
     [
       "6e1279b2-387a-4a79-8fd5-6fdc8d551df2",
       "Haptics"
+    ],
+    [
+      "42bd7cce-af51-4577-a519-44a90535f291",
+      "Storage"
+    ],
+    [
+      "61a1381c-fa91-4acb-8bba-0cebc11eb34a",
+      "Input"
     ]
   ],
   "text_variables": {}
