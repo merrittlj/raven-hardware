@@ -673,7 +673,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
+		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim yes)
@@ -687,7 +687,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_3_Bridged12"
+			(property "Value" "SolderJumper_3_Open"
 				(at 0 2.794 0)
 				(effects
 					(font
@@ -713,7 +713,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(property "Description" "Solder Jumper, 3-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -731,7 +731,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+			(property "ki_fp_filters" "SolderJumper*Open*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -740,18 +740,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "SolderJumper_3_Open_0_1"
 				(arc
 					(start -1.016 1.016)
 					(mid -2.0276 0)
@@ -872,7 +861,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
+			(symbol "SolderJumper_3_Open_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1294,7 +1283,7 @@
 				(pin input line
 					(at -7.62 5.08 0)
 					(length 3.81)
-					(name "RES"
+					(name "~{RES}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1330,7 +1319,7 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
-					(name "CS"
+					(name "~{CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1348,7 +1337,7 @@
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 3.81)
-					(name "SCL"
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1363,10 +1352,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -7.62 -5.08 0)
 					(length 3.81)
-					(name "SDA"
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2503,6 +2492,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 80.01) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3dbc91-ce77-4244-bf7c-20fced5315c4")
+	)
+	(wire
+		(pts
 			(xy 182.88 107.95) (xy 191.77 107.95)
 		)
 		(stroke
@@ -2801,6 +2800,16 @@
 		)
 		(uuid "2c4d6ff0-7b84-4a2e-8160-081023cc02b4")
 	)
+	(text "1 IS DEFAULT"
+		(exclude_from_sim no)
+		(at 93.98 162.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9091433d-07ff-482f-b019-38041d92ce43")
+	)
 	(text "TSCL/TSDA\nunconnected\nas we do not need \ntemp. readings"
 		(exclude_from_sim no)
 		(at 217.932 66.548 0)
@@ -2810,6 +2819,16 @@
 			)
 		)
 		(uuid "aa91d75e-b218-4681-8b71-977b154ce147")
+	)
+	(text "1 IS DEFAULT"
+		(exclude_from_sim no)
+		(at 141.732 152.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c03ef872-4678-485c-939c-56fa62f92460")
 	)
 	(text "VPP GND because we\ndon't program OTP"
 		(exclude_from_sim no)
@@ -2821,7 +2840,7 @@
 		)
 		(uuid "d2aa56ee-f75b-4773-8bb3-8e29b434477b")
 	)
-	(text "3-line\n(PWR):\nNo CS/MISO\n\n4-line\n(GND, default):\nCS/MISO"
+	(text "3-line\n(PWR):\nNo CS/MISO\n\n4-line\n(GND, DEFAULT):\nCS/MISO"
 		(exclude_from_sim no)
 		(at 80.772 150.114 0)
 		(effects
@@ -3019,7 +3038,7 @@
 		)
 		(uuid "2a424792-dc85-4b3f-8529-9b341eb3d150")
 	)
-	(hierarchical_label "RES"
+	(hierarchical_label "RES_N"
 		(shape input)
 		(at 191.77 74.93 180)
 		(fields_autoplaced yes)
@@ -3030,6 +3049,18 @@
 			(justify right)
 		)
 		(uuid "5e509246-bf3e-4d10-85a0-98c83d9f166b")
+	)
+	(hierarchical_label "RES_N"
+		(shape input)
+		(at 166.37 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a284f724-c2b1-4d9a-9b0b-7cb09a14b2b7")
 	)
 	(hierarchical_label "BUSY"
 		(shape output)
@@ -3043,8 +3074,20 @@
 		)
 		(uuid "af9ee0c6-32d2-4d1d-a085-67d6122de29f")
 	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
+	(hierarchical_label "CS_N"
+		(shape input)
+		(at 154.94 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1114982-408a-41fd-9710-775d8cd0ed6f")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
 		(at 191.77 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3055,7 +3098,19 @@
 		)
 		(uuid "b3ab1077-d169-46fd-bddb-5c40d226103a")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "PWR"
+		(shape input)
+		(at 154.94 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4e19a3c-7696-40f7-a272-9a4ac1b8f68f")
+	)
+	(hierarchical_label "SCK"
 		(shape input)
 		(at 191.77 82.55 180)
 		(fields_autoplaced yes)
@@ -3067,7 +3122,7 @@
 		)
 		(uuid "db4d4c56-8874-4f3f-80c0-1adc760921a5")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "CS_N"
 		(shape input)
 		(at 191.77 80.01 180)
 		(fields_autoplaced yes)
@@ -3788,76 +3843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 129.54 153.67 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "359110d8-ee96-47da-b33e-04c09ac3e35c")
-		(property "Reference" "JP502"
-			(at 121.92 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESE_JP"
-			(at 121.92 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 129.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e8a07217-e1e4-4864-93fb-71becac61c82")
-		)
-		(pin "1"
-			(uuid "449dfc1f-7e95-4754-aa12-4f22bf738bb8")
-		)
-		(pin "2"
-			(uuid "5c024b67-acd3-4e61-9d94-1dcab58267e6")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "JP502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 124.46 53.34 90)
 		(mirror x)
@@ -4131,6 +4116,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 166.37 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a99b75-d83a-48eb-b723-01a3c3151fca")
+		(property "Reference" "R408"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.592 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5ea02e8-b3f7-4a55-9896-194fc92d31ce")
+		)
+		(pin "1"
+			(uuid "5140827f-f177-4bee-b12e-cec6040b84f5")
+		)
+		(instances
+			(project "kicad"
+				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
+					(reference "R408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 93.98 63.5 0)
 		(unit 1)
@@ -4224,76 +4278,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
 					(reference "Q501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 93.98 152.4 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f44f1dd-92a2-4cd3-9e39-726c942ab63c")
-		(property "Reference" "JP501"
-			(at 101.6 155.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BS_L_JP"
-			(at 101.6 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c978ead6-d6b8-4ebd-9051-a17e4b6f1afd")
-		)
-		(pin "1"
-			(uuid "824c21ec-2068-438c-b148-1f1ee4dc6643")
-		)
-		(pin "2"
-			(uuid "bc470d27-32b8-40e5-b7e0-3e5df52c0e0b")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "JP501")
 					(unit 1)
 				)
 			)
@@ -4635,6 +4619,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 93.98 152.4 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ad71dc2-850c-4b34-ad11-e47660534aa8")
+		(property "Reference" "JP401"
+			(at 103.886 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS_L_JP"
+			(at 103.886 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08556368-74a6-4e75-8ee4-f171e7ca10cf")
+		)
+		(pin "2"
+			(uuid "3f84379e-efb8-4e64-aae7-4a71f6bd508c")
+		)
+		(pin "1"
+			(uuid "7833f2a3-ff5c-4829-9b75-9dcd7dbcd1bd")
+		)
+		(instances
+			(project ""
+				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
+					(reference "JP401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 81.28 52.07 0)
 		(unit 1)
@@ -4831,6 +4887,75 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
 					(reference "TP501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aab445d-24b2-4705-9c36-7528433d6157")
+		(property "Reference" "R407"
+			(at 148.59 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.162 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f49662b4-bb1e-40f4-9621-6aaeed74047e")
+		)
+		(pin "1"
+			(uuid "4a12073e-1e68-4e33-84ff-56447c2c91dd")
+		)
+		(instances
+			(project "kicad"
+				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -5034,6 +5159,76 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
 					(reference "#PWR0509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 129.54 153.67 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad6fafb3-d35f-4e85-9a34-ca6961faa7b2")
+		(property "Reference" "JP402"
+			(at 121.158 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESE_JP"
+			(at 121.158 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e03601a5-336d-4ef4-bc64-90d1e7222a03")
+		)
+		(pin "1"
+			(uuid "42d10bc0-76cc-4c3b-9236-58329c900eb7")
+		)
+		(pin "3"
+			(uuid "2d8be4dc-a941-48bc-ac96-9c678ce79230")
+		)
+		(instances
+			(project ""
+				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
+					(reference "JP402")
 					(unit 1)
 				)
 			)

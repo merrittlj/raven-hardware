@@ -9,7 +9,6 @@
 		(date "2024-09-02")
 		(rev "1")
 		(company "Author: Lucas Merritt")
-		(comment 1 "TODO: Consider dead-battery state operation")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1652,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 73.66) (xy 198.12 73.66)
+			(xy 144.78 149.86) (xy 137.16 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 68.58) (xy 198.12 68.58)
+			(xy 144.78 144.78) (xy 137.16 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1860,16 +1859,6 @@
 		)
 		(uuid "fe03b494-4fcb-448e-9076-67d7b19b79a5")
 	)
-	(wire
-		(pts
-			(xy 148.59 104.14) (xy 153.67 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5b1ce2-04c6-4108-b6fb-adb0d108396d")
-	)
 	(text "Pull-down resistors\ntell the host\nthat we are an UFP"
 		(exclude_from_sim no)
 		(at 207.772 104.902 0)
@@ -1880,7 +1869,7 @@
 		)
 		(uuid "0bc8155c-b016-4b62-97de-e514343cd0ad")
 	)
-	(text "Note: Ensure downstream\ncomponents are rated \n7.6V for worst-case scenario"
+	(text "Note: Ensure downstream\ncomponents are rated \n~7.6V for worst-case scenario"
 		(exclude_from_sim no)
 		(at 130.048 84.328 0)
 		(effects
@@ -1902,7 +1891,7 @@
 		(uuid "1bfad500-21e0-4d95-80dc-2760afc13383")
 	)
 	(label "CC2_T"
-		(at 198.12 73.66 0)
+		(at 137.16 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1913,7 +1902,7 @@
 		(uuid "55966cd4-83e7-451f-b803-db16267635de")
 	)
 	(label "CC1_T"
-		(at 198.12 68.58 0)
+		(at 137.16 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1933,17 +1922,6 @@
 			(justify right bottom)
 		)
 		(uuid "afa9201a-b2e5-4a97-a34d-6a5b066e8f20")
-	)
-	(label "FLT_N"
-		(at 148.59 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d479c601-1b6f-4639-9e1f-68763910cef9")
 	)
 	(hierarchical_label "DM"
 		(shape output)
@@ -1992,6 +1970,18 @@
 			(justify left)
 		)
 		(uuid "96e2dddb-8d33-4d02-b2c5-33ad7001a9c4")
+	)
+	(hierarchical_label "FLT_N"
+		(shape output)
+		(at 153.67 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e716b5ae-9884-4151-a993-91ba2afe8c2a")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2207,10 +2197,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "328830b1-9bb1-416f-84ea-ba7b66e07219")
 		(property "Reference" "R203"
-			(at 181.61 105.4099 0)
+			(at 180.848 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2208,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 181.61 107.9499 0)
+			(at 180.848 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2397,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 205.74 73.66 270)
+		(at 144.78 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2417,7 +2406,7 @@
 		(fields_autoplaced yes)
 		(uuid "77d46130-0b9b-4813-83d2-cf23214fdc35")
 		(property "Reference" "TP202"
-			(at 210.82 72.3899 90)
+			(at 149.86 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2415,7 @@
 			)
 		)
 		(property "Value" "CC2_TP"
-			(at 210.82 74.9299 90)
+			(at 149.86 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 78.74 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 78.74 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2442,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 205.74 73.66 0)
+			(at 144.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2623,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 205.74 68.58 270)
+		(at 144.78 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2643,7 +2632,7 @@
 		(fields_autoplaced yes)
 		(uuid "a485747d-6d4e-40e3-a91e-f8bdd9c65b1a")
 		(property "Reference" "TP201"
-			(at 210.82 67.3099 90)
+			(at 149.86 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2641,7 @@
 			)
 		)
 		(property "Value" "CC1_TP"
-			(at 210.82 69.8499 90)
+			(at 149.86 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 73.66 0)
+			(at 144.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 73.66 0)
+			(at 144.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2668,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 205.74 68.58 0)
+			(at 144.78 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1328,7 +1328,7 @@
 			)
 		)
 		(property "Value" "FPC24-0.5MM-EPD"
-			(at -2.54 -33.02 0)
+			(at -3.81 -33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1731,7 @@
 			(pin input line
 				(at -7.62 -2.54 0)
 				(length 3.81)
-				(name "SCL"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1746,10 +1746,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -7.62 -5.08 0)
 				(length 3.81)
-				(name "SDA"
+				(name "MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
