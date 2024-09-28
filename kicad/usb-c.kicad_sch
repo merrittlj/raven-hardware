@@ -2044,7 +2044,7 @@
 			(uuid "8250e3e2-0dbd-4246-9b63-a8bea2fb7288")
 		)
 		(instances
-			(project ""
+			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/32d68f15-4a24-4df9-a303-ad9032613b76"
 					(reference "C201")
 					(unit 1)
@@ -2114,7 +2114,7 @@
 			(uuid "d58c4a76-f9c3-45a2-82ba-58ce7e561460")
 		)
 		(instances
-			(project ""
+			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/32d68f15-4a24-4df9-a303-ad9032613b76"
 					(reference "D203")
 					(unit 1)
@@ -2181,7 +2181,7 @@
 			(uuid "03bd0483-f237-4739-aca5-799c9aa58ab2")
 		)
 		(instances
-			(project ""
+			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/32d68f15-4a24-4df9-a303-ad9032613b76"
 					(reference "R202")
 					(unit 1)
@@ -2317,7 +2317,7 @@
 			(uuid "686c2f8c-5869-4f49-a358-988d59940dee")
 		)
 		(instances
-			(project ""
+			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/32d68f15-4a24-4df9-a303-ad9032613b76"
 					(reference "#PWR0203")
 					(unit 1)
@@ -2613,7 +2613,7 @@
 			(uuid "e17a462e-3df4-4bd3-ae50-67d79d83204d")
 		)
 		(instances
-			(project ""
+			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/32d68f15-4a24-4df9-a303-ad9032613b76"
 					(reference "D201")
 					(unit 1)
@@ -2680,7 +2680,7 @@
 			(uuid "e11cb7b0-e1d3-4c55-b956-9702fd793453")
 		)
 		(instances
-			(project ""
+			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/32d68f15-4a24-4df9-a303-ad9032613b76"
 					(reference "TP201")
 					(unit 1)
