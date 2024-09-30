@@ -520,7 +520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af2e0c7-eaa7-4237-b9f4-c61c8166f32c")
-		(property "Reference" "R703"
+		(property "Reference" "R704"
 			(at 168.91 119.3799 0)
 			(effects
 				(font
@@ -538,7 +538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 164.592 120.65 90)
 			(effects
 				(font
@@ -574,7 +574,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "R703")
+					(reference "R704")
 					(unit 1)
 				)
 			)
@@ -608,7 +608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 136.652 83.82 90)
 			(effects
 				(font
@@ -743,7 +743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Raven:PROTOTYPE_BUTTONS"
 			(at 133.35 83.82 0)
 			(effects
 				(font
@@ -795,7 +795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a79012ad-4399-4ae7-99e1-63cfda03387a")
-		(property "Reference" "R704"
+		(property "Reference" "R702"
 			(at 140.97 119.3799 0)
 			(effects
 				(font
@@ -813,7 +813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 136.652 120.65 90)
 			(effects
 				(font
@@ -849,7 +849,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "R704")
+					(reference "R702")
 					(unit 1)
 				)
 			)
@@ -948,7 +948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Raven:PROTOTYPE_BUTTONS"
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -1000,7 +1000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b5b15e-6a80-471d-8f4a-13d1f0452222")
-		(property "Reference" "R702"
+		(property "Reference" "R703"
 			(at 168.91 82.5499 0)
 			(effects
 				(font
@@ -1018,7 +1018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 164.592 83.82 90)
 			(effects
 				(font
@@ -1054,7 +1054,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "R702")
+					(reference "R703")
 					(unit 1)
 				)
 			)
@@ -1153,7 +1153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Raven:PROTOTYPE_BUTTONS"
 			(at 133.35 120.65 0)
 			(effects
 				(font
@@ -1288,7 +1288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Raven:PROTOTYPE_BUTTONS"
 			(at 161.29 120.65 0)
 			(effects
 				(font

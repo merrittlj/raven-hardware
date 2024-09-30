@@ -3178,7 +3178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e0c035e-2e56-4285-82e1-0bd0c6c23cec")
-		(property "Reference" "C508"
+		(property "Reference" "C408"
 			(at 175.768 109.22 90)
 			(effects
 				(font
@@ -3194,7 +3194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 184.15 109.5248 0)
 			(effects
 				(font
@@ -3230,7 +3230,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C508")
+					(reference "C408")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1847e99b-334d-4b93-814e-5a3724683c02")
-		(property "Reference" "C504"
+		(property "Reference" "C404"
 			(at 148.082 64.77 0)
 			(effects
 				(font
@@ -3261,7 +3261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 141.2748 62.23 0)
 			(effects
 				(font
@@ -3297,7 +3297,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C504")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1912383f-1f6a-4046-88c4-b3f3b060b849")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR0406"
 			(at 142.24 76.2 0)
 			(effects
 				(font
@@ -3364,7 +3364,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0506")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -3380,7 +3380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ae25ab2-1f46-4323-9f40-4a94747f926a")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0405"
 			(at 134.62 168.91 0)
 			(effects
 				(font
@@ -3431,7 +3431,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0505")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -3446,7 +3446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "212a9f6c-97c0-4b55-9ced-7a1cc7b06800")
-		(property "Reference" "R503"
+		(property "Reference" "R403"
 			(at 139.446 156.21 0)
 			(effects
 				(font
@@ -3462,7 +3462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.842 157.48 90)
 			(effects
 				(font
@@ -3498,7 +3498,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "R503")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -3513,7 +3513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22052ae5-7bb0-42f8-aee6-d46703e1eaa7")
-		(property "Reference" "C507"
+		(property "Reference" "C407"
 			(at 175.768 104.14 90)
 			(effects
 				(font
@@ -3529,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 184.15 104.4448 0)
 			(effects
 				(font
@@ -3565,7 +3565,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C507")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -3581,7 +3581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2368fa6d-fb6a-4ed5-a1b5-4eab0da2d4a2")
-		(property "Reference" "TP503"
+		(property "Reference" "TP403"
 			(at 95.25 128.27 90)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 109.22 123.19 0)
 			(effects
 				(font
@@ -3632,7 +3632,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "TP503")
+					(reference "TP403")
 					(unit 1)
 				)
 			)
@@ -3647,7 +3647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2792031f-0570-49c9-88b7-b064c0ec4c1e")
-		(property "Reference" "C505"
+		(property "Reference" "C405"
 			(at 175.768 93.98 90)
 			(effects
 				(font
@@ -3663,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 184.15 94.2848 0)
 			(effects
 				(font
@@ -3699,7 +3699,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C505")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28e1c171-66e8-4c9e-9358-da6f18b48c3f")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0404"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -3766,7 +3766,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0504")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -3781,7 +3781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "293d2e1d-d107-47fc-abeb-dd5cf18daf6a")
-		(property "Reference" "R501"
+		(property "Reference" "R401"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 89.408 67.31 90)
 			(effects
 				(font
@@ -3835,7 +3835,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "R501")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -3851,7 +3851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3af682b8-9c46-4f21-b606-cda427a6ffd2")
-		(property "Reference" "C503"
+		(property "Reference" "C403"
 			(at 121.92 46.99 90)
 			(effects
 				(font
@@ -3869,7 +3869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 128.27 54.3052 0)
 			(effects
 				(font
@@ -3905,7 +3905,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C503")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -3921,7 +3921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c278980-e285-40fd-82ea-67090b092112")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR0407"
 			(at 170.18 116.84 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0507")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -3988,7 +3988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40b62908-166e-46a0-884b-7a2fc6bac2e7")
-		(property "Reference" "D503"
+		(property "Reference" "D403"
 			(at 146.304 56.896 90)
 			(effects
 				(font
@@ -4040,7 +4040,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "D503")
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5568cadc-70c3-4fd0-9f3a-2cdb4246020d")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR0408"
 			(at 179.07 68.58 0)
 			(effects
 				(font
@@ -4108,7 +4108,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0508")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -4123,7 +4123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59a99b75-d83a-48eb-b723-01a3c3151fca")
-		(property "Reference" "R408"
+		(property "Reference" "R405"
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -4141,7 +4141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 164.592 83.82 90)
 			(effects
 				(font
@@ -4177,7 +4177,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "R408")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bbc9184-6012-4867-8cc6-a576ddd8801b")
-		(property "Reference" "Q501"
+		(property "Reference" "Q401"
 			(at 100.076 62.484 0)
 			(effects
 				(font
@@ -4210,7 +4210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 99.06 60.96 0)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "Q501")
+					(reference "Q401")
 					(unit 1)
 				)
 			)
@@ -4292,7 +4292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627ea642-4ff7-4819-90c9-6fa052ae0803")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR0402"
 			(at 93.98 163.83 0)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0503")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -4358,7 +4358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65942d45-23f9-4a3c-8823-cf0d47b89544")
-		(property "Reference" "D502"
+		(property "Reference" "D402"
 			(at 132.08 49.53 90)
 			(effects
 				(font
@@ -4410,7 +4410,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "D502")
+					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -4425,7 +4425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ff5e7e5-54eb-4f55-88e1-9b41c05a0f7f")
-		(property "Reference" "C502"
+		(property "Reference" "C402"
 			(at 124.714 64.516 0)
 			(effects
 				(font
@@ -4441,7 +4441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 118.4148 62.23 0)
 			(effects
 				(font
@@ -4477,7 +4477,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C502")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8735c015-4ae7-4271-8ea3-bff031cb7023")
-		(property "Reference" "D501"
+		(property "Reference" "D401"
 			(at 110.49 56.642 90)
 			(effects
 				(font
@@ -4544,7 +4544,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "D501")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8973b8bb-d38f-40f4-8946-f9bb41d2a1b1")
-		(property "Reference" "R502"
+		(property "Reference" "R402"
 			(at 119.634 156.21 0)
 			(effects
 				(font
@@ -4575,7 +4575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.682 157.48 90)
 			(effects
 				(font
@@ -4611,7 +4611,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "R502")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -4644,7 +4644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -4698,7 +4698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c0c4c53-6b47-4d1d-9cb3-e2fdca59adf0")
-		(property "Reference" "C501"
+		(property "Reference" "C401"
 			(at 72.39 50.8 0)
 			(effects
 				(font
@@ -4716,7 +4716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 82.2452 55.88 0)
 			(effects
 				(font
@@ -4752,7 +4752,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C501")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -4767,7 +4767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f7ac799-7d4e-4f28-be12-d480387eae20")
-		(property "Reference" "C509"
+		(property "Reference" "C409"
 			(at 183.642 60.96 90)
 			(effects
 				(font
@@ -4783,7 +4783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.77 61.2648 0)
 			(effects
 				(font
@@ -4819,7 +4819,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C509")
+					(reference "C409")
 					(unit 1)
 				)
 			)
@@ -4834,7 +4834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92837280-c4b6-4531-af36-97cf975aa94b")
-		(property "Reference" "TP501"
+		(property "Reference" "TP401"
 			(at 95.25 120.65 90)
 			(effects
 				(font
@@ -4852,7 +4852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 109.22 125.73 0)
 			(effects
 				(font
@@ -4885,7 +4885,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "TP501")
+					(reference "TP401")
 					(unit 1)
 				)
 			)
@@ -4900,7 +4900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9aab445d-24b2-4705-9c36-7528433d6157")
-		(property "Reference" "R407"
+		(property "Reference" "R404"
 			(at 148.59 82.55 0)
 			(effects
 				(font
@@ -4918,7 +4918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.162 83.82 90)
 			(effects
 				(font
@@ -4954,7 +4954,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "R407")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -4970,7 +4970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4bed391-6209-40a4-8acb-aedcc32f45f9")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR0403"
 			(at 96.52 86.36 0)
 			(effects
 				(font
@@ -5021,7 +5021,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0502")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -5037,7 +5037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8e2a6fd-ca85-437e-9e56-9134aa8046c2")
-		(property "Reference" "#PWR0510"
+		(property "Reference" "#PWR0410"
 			(at 189.23 102.87 0)
 			(effects
 				(font
@@ -5089,7 +5089,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0510")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -5105,7 +5105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abc2a974-c697-4dc4-bada-b29d5069b347")
-		(property "Reference" "#PWR0509"
+		(property "Reference" "#PWR0409"
 			(at 189.23 97.79 0)
 			(effects
 				(font
@@ -5157,7 +5157,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0509")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -5188,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 129.54 153.67 0)
 			(effects
 				(font
@@ -5243,7 +5243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4cf69e5-135d-406b-8493-339fa9bf0f1c")
-		(property "Reference" "EPD_FPC501"
+		(property "Reference" "EPD_FPC401"
 			(at 205.74 80.0099 0)
 			(effects
 				(font
@@ -5363,7 +5363,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "EPD_FPC501")
+					(reference "EPD_FPC401")
 					(unit 1)
 				)
 			)
@@ -5379,7 +5379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c45d9c4d-6efc-4a4d-962f-9a392f38d12e")
-		(property "Reference" "TP504"
+		(property "Reference" "TP404"
 			(at 95.25 132.08 90)
 			(effects
 				(font
@@ -5397,7 +5397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -5430,7 +5430,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "TP504")
+					(reference "TP404")
 					(unit 1)
 				)
 			)
@@ -5445,7 +5445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cba2f749-400d-427d-b639-5f610f7d437d")
-		(property "Reference" "C506"
+		(property "Reference" "C406"
 			(at 175.768 99.06 90)
 			(effects
 				(font
@@ -5461,7 +5461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 184.15 99.3648 0)
 			(effects
 				(font
@@ -5497,7 +5497,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "C506")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -5513,7 +5513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbc14d9f-b4e3-4f19-9a16-0f5de72ef46c")
-		(property "Reference" "L501"
+		(property "Reference" "L401"
 			(at 91.44 43.434 90)
 			(effects
 				(font
@@ -5565,7 +5565,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "L501")
+					(reference "L401")
 					(unit 1)
 				)
 			)
@@ -5582,7 +5582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfcfca45-58ca-4cf5-823d-a0249334234c")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR0401"
 			(at 81.28 62.23 0)
 			(effects
 				(font
@@ -5634,7 +5634,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "#PWR0501")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -5649,7 +5649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da84ae64-761b-45ee-9a81-a6751e88736c")
-		(property "Reference" "TP502"
+		(property "Reference" "TP402"
 			(at 95.25 124.46 90)
 			(effects
 				(font
@@ -5667,7 +5667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 109.22 129.54 0)
 			(effects
 				(font
@@ -5700,7 +5700,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "TP502")
+					(reference "TP402")
 					(unit 1)
 				)
 			)

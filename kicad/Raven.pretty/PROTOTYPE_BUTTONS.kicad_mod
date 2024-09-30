@@ -1,0 +1,110 @@
+(footprint "PROTOTYPE_BUTTONS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "30902640-8bef-4dd9-a30a-6cb2937c58fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PROTOTYPE_BUTTONS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d79f88d9-7f20-418c-98a5-95599fe96a74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PROTOTYPE_BUTTONS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24a936e8-b8f0-40db-aa15-c54fdd598c74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca30ebc5-8564-4bec-b645-56840dab80ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cf5dc6f-9598-443c-b251-e115676ef254")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e22f0238-98a3-4dea-aeac-25519a5a8e8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 -0.85)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "10744c0a-d8a5-4029-bab5-e4d3eb2e8d48")
+	)
+	(pad "1" smd rect
+		(at 2.5 -0.85)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "cf1e4b04-60d3-4dd6-b275-6e6e90acc584")
+	)
+	(pad "2" smd rect
+		(at -2.5 0.85)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4fb78bc6-b74a-488c-a44d-3f6efbaef708")
+	)
+	(pad "2" smd rect
+		(at 2.5 0.85)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b714eff7-888e-4481-8da4-c1462e9649eb")
+	)
+)
