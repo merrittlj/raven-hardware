@@ -1,4 +1,4 @@
-12091520539803
+17273334358342
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85428,6 +85428,13 @@ WiFi IEEE802.11 b/g/n
 44
 44
 Raven
+CONN24x1_FH34SRJ-24S-0.5SH50_HIR
+
+FH34SRJ-24S-0.5SH50 
+0
+26
+26
+Raven
 DMY0003A
 
 ESD122DMYR 
@@ -85442,6 +85449,13 @@ GCT_USB4105-GF-A-16P
 16
 16
 Raven
+IND_BOURNS_SRN3015
+
+SRN3015-100M 
+0
+2
+2
+Raven
 PROTOTYPE_BUTTONS
 
 
@@ -85455,6 +85469,13 @@ KMS231GPLFS
 0
 7
 7
+Raven
+TE_2329497-2
+
+
+0
+1
+1
 Raven
 YFF0009AJAJ
 

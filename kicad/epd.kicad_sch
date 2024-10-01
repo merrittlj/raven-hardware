@@ -3599,7 +3599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 109.22 123.19 0)
 			(effects
 				(font
@@ -4852,7 +4852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 109.22 125.73 0)
 			(effects
 				(font
@@ -5261,7 +5261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Raven:CONN24x1_FH34SRJ-24S-0.5SH50_HIR"
 			(at 196.85 80.01 0)
 			(effects
 				(font
@@ -5397,7 +5397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -5529,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Raven:IND_BOURNS_SRN3015"
 			(at 91.44 48.26 0)
 			(effects
 				(font
@@ -5667,7 +5667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 109.22 129.54 0)
 			(effects
 				(font

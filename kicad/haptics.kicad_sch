@@ -113,6 +113,116 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -354,178 +464,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Motor:Motor_DC_ALT"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Motor_DC_ALT"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Motor, alternative symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Motor_DC_ALT_0_0"
-				(circle
-					(center 0 -1.524)
-					(radius 2.9718)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -4.318) (xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 2.032) (xy 1.27 2.032) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_DC_ALT_0_1"
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_DC_ALT_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -923,16 +861,10 @@
 		(uuid "21bfae64-a1fb-49dc-94cd-14744d1055d5")
 	)
 	(junction
-		(at 151.13 109.22)
+		(at 153.67 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78188ceb-f6c3-4791-905f-d44f2fcb67ec")
-	)
-	(junction
-		(at 151.13 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a973a4e-558a-42ef-ae3c-04a8f4ba1075")
+		(uuid "cd09d140-2fd1-49fe-95e3-e6e5cb231c5d")
 	)
 	(junction
 		(at 135.89 120.65)
@@ -947,6 +879,12 @@
 		(uuid "e56ba35a-6a4e-4e2b-88b3-593b0af048bc")
 	)
 	(junction
+		(at 153.67 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f75ac4a2-233b-4dcf-b479-56ed5aed07ac")
+	)
+	(junction
 		(at 135.89 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -954,13 +892,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 109.22) (xy 161.29 109.22)
+			(xy 153.67 109.22) (xy 156.21 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01b4e148-b84f-474a-8112-4fec2ebbc851")
+		(uuid "0c1df6d7-c4db-41f9-93b6-3d771ce1fd93")
+	)
+	(wire
+		(pts
+			(xy 153.67 88.9) (xy 153.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc0353d-e0d0-4ee7-8575-89221e923880")
 	)
 	(wire
 		(pts
@@ -971,6 +919,16 @@
 			(type default)
 		)
 		(uuid "263ca9eb-793b-4b95-9023-0da86403ddbb")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b030665-c096-49b1-85a2-85645ddf157c")
 	)
 	(wire
 		(pts
@@ -994,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 109.22) (xy 151.13 109.22)
+			(xy 147.32 109.22) (xy 153.67 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1034,7 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 151.13 96.52)
+			(xy 147.32 96.52) (xy 153.67 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1114,6 +1072,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 96.52) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4fc8a6-0cb9-4759-83af-2fd38b34fe22")
+	)
+	(wire
+		(pts
 			(xy 105.41 99.06) (xy 105.41 100.33)
 		)
 		(stroke
@@ -1121,16 +1089,6 @@
 			(type default)
 		)
 		(uuid "e0bf7b78-dcd5-48c0-b3bd-7a6f760e0a5d")
-	)
-	(wire
-		(pts
-			(xy 151.13 96.52) (xy 161.29 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53e9dc6-8888-42c3-966f-8a3c97b19d2d")
 	)
 	(wire
 		(pts
@@ -1151,6 +1109,16 @@
 			(type default)
 		)
 		(uuid "f5c51ca5-b5ca-421e-9652-a088604df990")
+	)
+	(text "VG1040003D\nconnected to\nspring fingers"
+		(exclude_from_sim no)
+		(at 156.21 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5419bd04-ebea-4b4d-9116-f51fba06ff21")
 	)
 	(text "Via GND_X to \nGND layer"
 		(exclude_from_sim no)
@@ -1185,18 +1153,18 @@
 		(uuid "9a79194b-e580-498a-83fd-01eb5f8b59ee")
 	)
 	(label "OUTN_T"
-		(at 161.29 109.22 180)
+		(at 153.67 116.84 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b096a0e2-8087-4db4-9c31-e3c4c867f963")
 	)
 	(label "OUTP_T"
-		(at 161.29 96.52 180)
+		(at 153.67 88.9 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1303,6 +1271,73 @@
 		(uuid "f0b867ca-a180-4043-ade0-51292a22bad9")
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 161.29 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "172026dd-3f1b-41f6-b88e-08168f7038d6")
+		(property "Reference" "J502"
+			(at 163.83 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOTOR_N_SF"
+			(at 163.83 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Raven:TE_2329497-2"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b95ede36-50df-4dfb-b56e-6ed571854c5e")
+		)
+		(instances
+			(project "kicad"
+				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/6e1279b2-387a-4a79-8fd5-6fdc8d551df2"
+					(reference "J502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 172.72 83.82 270)
 		(unit 1)
@@ -1329,7 +1364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 172.72 88.9 0)
 			(effects
 				(font
@@ -1395,7 +1430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -1709,76 +1744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Motor_DC_ALT")
-		(at 151.13 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab841ce2-3aaa-4991-9eab-394bcf70e43a")
-		(property "Reference" "M501"
-			(at 154.94 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VG1040003D"
-			(at 154.94 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Motor, alternative symbol"
-			(at 151.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68bcbfee-0b6a-4c4f-916a-bcef7834f23b")
-		)
-		(pin "1"
-			(uuid "43cc7bfa-22e6-4302-92fa-c4961a2f12f0")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/6e1279b2-387a-4a79-8fd5-6fdc8d551df2"
-					(reference "M501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 125.73 88.9 0)
 		(unit 1)
@@ -1842,6 +1807,73 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/6e1279b2-387a-4a79-8fd5-6fdc8d551df2"
 					(reference "R503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 161.29 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf2840d3-6089-47b0-a62b-156418c15c25")
+		(property "Reference" "J501"
+			(at 163.83 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOTOR_P_SF"
+			(at 163.83 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Raven:TE_2329497-2"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9be09dd1-111e-4340-b14c-ace1582ea529")
+		)
+		(instances
+			(project "kicad"
+				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/6e1279b2-387a-4a79-8fd5-6fdc8d551df2"
+					(reference "J501")
 					(unit 1)
 				)
 			)
