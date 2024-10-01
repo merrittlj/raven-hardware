@@ -520,7 +520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23d62457-7e04-46cb-8a39-388e2c0c3365")
-		(property "Reference" "SW3"
+		(property "Reference" "SW703"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -572,7 +572,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW3")
+					(reference "SW703")
 					(unit 1)
 				)
 			)
@@ -658,7 +658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531f5c66-86f0-4158-b874-80ab9059e825")
-		(property "Reference" "SW2"
+		(property "Reference" "SW702"
 			(at 110.49 92.71 0)
 			(effects
 				(font
@@ -710,7 +710,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW2")
+					(reference "SW702")
 					(unit 1)
 				)
 			)
@@ -863,7 +863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a52043-36b4-4937-8484-e9c9dcb074fa")
-		(property "Reference" "SW701"
+		(property "Reference" "SW704"
 			(at 133.35 81.28 0)
 			(effects
 				(font
@@ -915,7 +915,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW701")
+					(reference "SW704")
 					(unit 1)
 				)
 			)
@@ -1068,7 +1068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b63e06e0-6603-40e2-b852-184983ad03a8")
-		(property "Reference" "SW703"
+		(property "Reference" "SW706"
 			(at 161.29 81.28 0)
 			(effects
 				(font
@@ -1120,7 +1120,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW703")
+					(reference "SW706")
 					(unit 1)
 				)
 			)
@@ -1136,7 +1136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd805a88-7b71-4271-856a-250eeae8a656")
-		(property "Reference" "SW1"
+		(property "Reference" "SW701"
 			(at 110.49 81.28 0)
 			(effects
 				(font
@@ -1188,7 +1188,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW1")
+					(reference "SW701")
 					(unit 1)
 				)
 			)
@@ -1341,7 +1341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edd92391-ad4a-40c0-911a-5b0fe53ec912")
-		(property "Reference" "SW702"
+		(property "Reference" "SW705"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -1393,7 +1393,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW702")
+					(reference "SW705")
 					(unit 1)
 				)
 			)
@@ -1476,7 +1476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d01843-819a-4872-8c6a-fd4d2f2fc643")
-		(property "Reference" "SW704"
+		(property "Reference" "SW707"
 			(at 161.29 118.11 0)
 			(effects
 				(font
@@ -1528,7 +1528,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW704")
+					(reference "SW707")
 					(unit 1)
 				)
 			)

@@ -1567,6 +1567,42 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 7.62 27.94 180)
+					(length 2.54) hide
+					(name "MNT_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 27.94 180)
+					(length 2.54) hide
+					(name "MNT_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 22.86 0)
 					(length 3.81)
@@ -4210,7 +4246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
 			(at 99.06 60.96 0)
 			(effects
 				(font
@@ -5359,6 +5395,12 @@
 		)
 		(pin "20"
 			(uuid "9910c3dd-dc1d-43a3-a47d-62ffa6a991cd")
+		)
+		(pin "25"
+			(uuid "9f46aa39-0937-4a7e-9d5c-cc2ab222b210")
+		)
+		(pin "26"
+			(uuid "c4997bd9-a708-4188-bf25-da7dd646def6")
 		)
 		(instances
 			(project "kicad"

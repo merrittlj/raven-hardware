@@ -492,8 +492,8 @@
 					)
 				)
 			)
-			(property "Value" "DA7280"
-				(at 5.842 15.24 0)
+			(property "Value" "DA7280-QFN"
+				(at 8.636 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -604,6 +604,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 7.62 180)
+					(length 2.54) hide
+					(name "IC_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1904,7 +1922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm"
+		(property "Footprint" "Raven:QFN-12_3x3mm_P0.65mm"
 			(at 128.27 106.68 0)
 			(effects
 				(font
@@ -1966,6 +1984,9 @@
 		)
 		(pin "3"
 			(uuid "338baa83-a694-4ffe-9392-19b7da5434c4")
+		)
+		(pin "13"
+			(uuid "2d26565d-60ea-41a6-8678-e40e21a381f2")
 		)
 		(instances
 			(project "kicad"
