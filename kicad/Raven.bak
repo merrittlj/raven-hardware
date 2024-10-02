@@ -707,6 +707,24 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 10.16 7.62 180)
+				(length 2.54) hide
+				(name "IC_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -10.16 -5.08 0)
 				(length 2.54)

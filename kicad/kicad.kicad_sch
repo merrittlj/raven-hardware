@@ -5936,16 +5936,6 @@
 			)
 			(uuid "8a7728a8-6c26-4c51-88ee-1970dfccd058")
 		)
-		(pin "RES" input
-			(at 87.63 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3ad36b56-f6f4-423e-8b2f-7c9b033d4d8d")
-		)
 		(pin "PWR" input
 			(at 87.63 45.72 180)
 			(effects
@@ -5966,16 +5956,6 @@
 			)
 			(uuid "a13f1ab7-f2a3-4a1c-9451-c3c72fb2fd3c")
 		)
-		(pin "CS" input
-			(at 87.63 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "155dab23-967c-4eff-bcd1-0445947bb0f2")
-		)
 		(pin "SCK" input
 			(at 87.63 50.8 180)
 			(effects
@@ -5995,6 +5975,26 @@
 				(justify left)
 			)
 			(uuid "1326fd3a-3330-46e3-b3ed-79554df602ef")
+		)
+		(pin "RES_N" input
+			(at 87.63 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "11151cc9-6b80-41c6-8e06-d96a0cca7ee8")
+		)
+		(pin "CS_N" input
+			(at 87.63 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5cab38ca-ed09-4177-afe3-4947f6af971f")
 		)
 		(instances
 			(project "kicad"
