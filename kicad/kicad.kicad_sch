@@ -2122,16 +2122,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 49.53) (xy 147.32 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca3cb8a-ca48-4880-a9d4-58415b333c0d")
-	)
-	(wire
-		(pts
 			(xy 261.62 72.39) (xy 261.62 49.53)
 		)
 		(stroke
@@ -2139,16 +2129,6 @@
 			(type default)
 		)
 		(uuid "7d2183bf-5fa0-4900-a8f2-bec7abce3995")
-	)
-	(wire
-		(pts
-			(xy 153.67 60.96) (xy 153.67 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc6d0c4-6feb-4785-bd24-9d162edfe4f1")
 	)
 	(wire
 		(pts
@@ -2539,16 +2519,6 @@
 			)
 		)
 		(uuid "cd9beaf6-dc0b-49cd-b067-2c30b43829dc")
-	)
-	(text "DEFAULT \nCONNECTED"
-		(exclude_from_sim no)
-		(at 102.362 38.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f0274845-6f96-4eb0-b432-280284625d95")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3313,79 +3283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 158.75 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3697c447-1c17-4be4-afd5-220d5f1dab1e")
-		(property "Reference" "J105"
-			(at 161.29 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBC_CONN"
-			(at 161.29 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 158.75 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb5ab17e-506a-4344-8de0-323ae6385ed0")
-		)
-		(pin "3"
-			(uuid "575385eb-662c-432a-ad12-b9a40e8ed73b")
-		)
-		(pin "2"
-			(uuid "343b9e5e-4580-4bb2-b0ec-08360b8b33b7")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02"
-					(reference "J105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 31.75 104.14 0)
 		(unit 1)
@@ -3941,72 +3838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 111.76 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dd29869-ba95-4672-9ea0-fbbbbd424d19")
-		(property "Reference" "#PWR0113"
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 111.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f91eb0d-5dc7-4648-b580-e9ea092c6170")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 158.75 0)
 		(unit 1)
@@ -4139,6 +3970,73 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02"
 					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 158.75 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91e7325a-e88b-4675-92e4-8d8fd45f9355")
+		(property "Reference" "J109"
+			(at 159.004 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USBC_CONN"
+			(at 159.004 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e2f4e27-f114-4df2-90f3-1affd57bcf45")
+		)
+		(pin "1"
+			(uuid "f422bfb3-233a-438a-9626-0da7a3aef062")
+		)
+		(instances
+			(project "kicad"
+				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02"
+					(reference "J109")
 					(unit 1)
 				)
 			)
@@ -4342,73 +4240,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 115.57 45.72 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3f7ee9c-e857-41f3-a620-ffa81a31e4c6")
-		(property "Reference" "JP104"
-			(at 104.14 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_PWR_JP"
-			(at 104.14 46.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 115.57 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 115.57 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a583c9bf-ff79-4636-a2b3-f900d17ae65f")
-		)
-		(pin "1"
-			(uuid "1b7a7576-9506-4ed6-812f-db373ad41b25")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02"
-					(reference "JP104")
 					(unit 1)
 				)
 			)
@@ -6210,16 +6041,6 @@
 			)
 			(uuid "26dad231-3f2e-41cb-a834-7effebdedcc0")
 		)
-		(pin "IC_PWR" input
-			(at 119.38 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "429f5beb-b76a-4546-809d-50947e618c9a")
-		)
 		(pin "VBUS" output
 			(at 147.32 45.72 0)
 			(effects
@@ -6229,16 +6050,6 @@
 				(justify right)
 			)
 			(uuid "365f8e8f-f4ef-484e-a967-c4d640bca2c4")
-		)
-		(pin "FLT_N" output
-			(at 147.32 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "578373ae-497c-4cb2-bc8f-7f90f448940f")
 		)
 		(instances
 			(project "kicad"
