@@ -1325,6 +1325,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b95ede36-50df-4dfb-b56e-6ed571854c5e")
 		)
@@ -1383,6 +1401,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -1457,6 +1493,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b134cb5e-4f91-4011-bbc8-c730395009f3")
 		)
@@ -1515,6 +1569,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 124.46 121.92 0)
 			(effects
 				(font
@@ -1584,6 +1647,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 105.41 95.25 0)
 			(effects
 				(font
@@ -1728,6 +1800,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0603"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78f42386-449d-4d34-aabc-13d00b6c0266")
 		)
@@ -1789,6 +1870,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -1867,6 +1957,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9be09dd1-111e-4340-b14c-ace1582ea529")
 		)
@@ -1924,6 +2032,24 @@
 		)
 		(property "Description" ""
 			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

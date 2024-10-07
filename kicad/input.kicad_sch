@@ -563,6 +563,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5579bd5-2228-49df-9d80-02e0c6569beb")
 		)
@@ -625,6 +643,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 166.37 120.65 0)
 			(effects
 				(font
@@ -701,6 +728,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73c241a9-1759-4cd4-9f70-e49484f5fc68")
 		)
@@ -763,6 +808,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 138.43 83.82 0)
 			(effects
 				(font
@@ -906,6 +960,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9797035b-c0f0-4018-b039-530c506057ce")
 		)
@@ -968,6 +1040,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -1111,6 +1192,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4579080-53b4-4cd5-9a2d-a79eb784c3e2")
 		)
@@ -1171,6 +1270,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -1241,6 +1358,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 166.37 83.82 0)
 			(effects
 				(font
@@ -1384,6 +1510,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4dc671ac-87d0-4319-a711-7f97bee8b975")
 		)
@@ -1511,6 +1655,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 161.29 125.73 0)
 			(effects
 				(font

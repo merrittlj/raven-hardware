@@ -3231,6 +3231,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0805"
+			(at 180.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0734ea29-ba88-4695-89c7-1c8342f131a5")
 		)
@@ -3290,6 +3299,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
 			(at 142.24 66.04 0)
 			(effects
 				(font
@@ -3499,6 +3517,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "34f5d8e5-9ad2-42c5-bcca-e66562f528f1")
 		)
@@ -3558,6 +3594,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -3636,6 +3681,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4944067d-8d8b-4c01-aec3-c42bc4f693ab")
 		)
@@ -3692,6 +3755,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -3836,6 +3908,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0603"
+			(at 87.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a97b9e92-ef11-4049-af9e-8822f06cefd5")
 		)
@@ -3898,6 +3979,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 124.46 53.34 0)
 			(effects
 				(font
@@ -4033,6 +4132,24 @@
 			)
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 139.7 58.42 0)
 			(effects
 				(font
@@ -4178,6 +4295,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0603"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5ea02e8-b3f7-4a55-9896-194fc92d31ce")
 		)
@@ -4267,6 +4393,24 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 93.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,6 +4555,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11d88a4c-b835-437a-a0e5-c888d7105822")
 		)
@@ -4470,6 +4632,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
 			(at 119.38 66.04 0)
 			(effects
 				(font
@@ -4545,6 +4716,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 116.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 116.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d61083d0-c91f-40fb-b895-3d108301f4d0")
 		)
@@ -4604,6 +4793,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 124.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 124.46 157.48 0)
 			(effects
 				(font
@@ -4673,6 +4880,24 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -4753,6 +4978,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22d16da0-c02c-46d9-8abc-01b15b3eed9d")
 		)
@@ -4812,6 +5055,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
 			(at 187.96 62.23 0)
 			(effects
 				(font
@@ -4889,6 +5141,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "442c21e6-05e1-421f-8b7b-871ae71a9098")
 		)
@@ -4947,6 +5217,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -5225,6 +5504,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e03601a5-336d-4ef4-bc64-90d1e7222a03")
 		)
@@ -5291,6 +5588,24 @@
 		)
 		(property "Description" "EPD FPC 24-0.5mm connector"
 			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 199.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,6 +5755,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "382064cb-4e28-4dc1-915a-0a38bb9edac9")
 		)
@@ -5496,6 +5829,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0805"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -5564,6 +5906,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 91.44 48.26 0)
 			(effects
 				(font
@@ -5702,6 +6062,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 109.22 124.46 0)
 			(effects
 				(font

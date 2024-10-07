@@ -1500,7 +1500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 113.03 91.44 0)
 			(effects
 				(font
@@ -1519,6 +1519,24 @@
 			)
 		)
 		(property "Description" "Zener diode"
+			(at 113.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 113.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 113.03 91.44 0)
 			(effects
 				(font
@@ -1664,6 +1682,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 133.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 133.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8cd97cf3-4d3a-4b7c-983a-e55ba598afef")
 		)
@@ -1723,6 +1759,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 140.97 106.68 0)
 			(effects
 				(font
@@ -1868,6 +1913,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fdb9867-6f40-4712-a7fe-388a461580d5")
 		)
@@ -1938,6 +2001,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e11cb7b0-e1d3-4c55-b956-9702fd793453")
 		)
@@ -1996,6 +2077,24 @@
 			)
 		)
 		(property "Description" "Zener diode"
+			(at 115.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "XXXXXX"
+			(at 115.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
 			(at 115.57 118.11 0)
 			(effects
 				(font
@@ -2138,6 +2237,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A4"
 			(uuid "55efec22-1ea0-47c2-a3ae-829f60bb5ee8")
 		)
@@ -2244,6 +2361,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 132.08 106.68 0)
 			(effects
 				(font

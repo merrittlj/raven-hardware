@@ -830,6 +830,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "0603"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f2d6aec0-607e-4384-8e80-fb39981d2e2b")
 		)
@@ -966,6 +975,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "XXXXXX"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "XXXXXX"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "0305e25d-edfb-491d-aa6b-51d9e8779245")
 		)
@@ -1045,6 +1072,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "0603"
 			(at 127 96.52 0)
 			(effects
 				(font
