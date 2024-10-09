@@ -8,7 +8,8 @@
 		(title "USB-C Module")
 		(date "2024-09-02")
 		(rev "1")
-		(company "Author: Lucas Merritt")
+		(company "Mosaic Labs")
+		(comment 1 "Lucas Merritt")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
