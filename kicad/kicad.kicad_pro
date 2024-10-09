@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "unconnected_items|170200000|133000000|6de20830-ddae-4af5-b6da-69bd63b9ae65|4dbf9cfc-0340-4f55-9fa6-d77c62cef964",
-        "unconnected_items|170200000|137500000|4dbf9cfc-0340-4f55-9fa6-d77c62cef964|d4519b32-1b47-44be-84f9-e01037d71baf",
-        "unconnected_items|171875000|141175000|8c9a6a4e-5cd9-4cf2-aa5c-4d3626b00a95|d0719d09-514e-49fe-b048-fe8489492591",
-        "unconnected_items|183225000|141175000|2e7e33f4-2079-4a2a-896b-d70529a9e52d|30c1cb86-bb30-4820-860c-4fb594effdea",
-        "unconnected_items|184800000|137500000|e3f681ee-4e0f-49ae-b26e-64750f4fcc3d|875e429f-a8fd-45e1-b5cd-4f7fab57f4c2",
-        "unconnected_items|184800000|142500000|ffb5071d-4d58-42db-a568-eaf3193a4216|e3f681ee-4e0f-49ae-b26e-64750f4fcc3d",
-        "unconnected_items|187000000|82000000|862785ea-29b6-4a5e-ba2b-f50a9536ddd9|37d3b323-c3cd-42a4-a00e-772ab2704f62",
-        "unconnected_items|187000000|90500000|e8fddb23-5f87-488c-bf89-47d1d7c41d78|0e16afd5-eaf7-4fc0-9c84-456a65d9c0f7",
-        "unconnected_items|187150000|99000000|4e834186-cc25-4fe0-b03c-fc01a7161a84|1b32ad04-f543-4106-b952-b59fbf18817a",
-        "unconnected_items|188700000|82000000|44135999-5b04-43fb-8816-3862c848f219|2265757f-089e-4953-9c1a-d683527ebc56",
-        "unconnected_items|188700000|90500000|9aef9717-6ed5-442f-9278-7c4ff5b1de8b|9bdaa9fe-0cf6-4c8e-8df7-55e89b3779ef",
-        "unconnected_items|188850000|99000000|9a24cfd0-8a5f-42d8-96c5-ed006ddaaab4|15e09f04-485d-4b19-83b0-ed7d3fc03521"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -191,7 +178,6 @@
       ],
       "track_widths": [
         0.0,
-        0.09,
         0.1,
         0.15
       ],
@@ -648,7 +634,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../plot/",
+    "plot_directory": "../",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
