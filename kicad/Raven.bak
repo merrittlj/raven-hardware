@@ -1395,7 +1395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VB\"(+3.3V Battery)"
+		(property "Description" "Power symbol creates a global label with name \"REGV\"(Regulated Voltage)"
 			(at 0 0 0)
 			(effects
 				(font
