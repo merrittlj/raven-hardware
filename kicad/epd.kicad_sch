@@ -5520,7 +5520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Raven:CONN24x1_FH34SRJ-24S-0.5SH50_HIR"
+		(property "Footprint" "Raven:CONN_F3311A7H121024E200_AMP"
 			(at 196.85 80.01 0)
 			(effects
 				(font

@@ -60,15 +60,7 @@
       ],
       "drc_exclusions": [
         "silk_edge_clearance|181530000|47000000|31c82d05-77cc-4ec1-b2ff-8e4c8cc33534|a37d5beb-6f43-41b1-92a2-cb269e5720fb",
-        "silk_edge_clearance|190470000|47000000|31c82d05-77cc-4ec1-b2ff-8e4c8cc33534|b4f8f201-b3b9-431c-8df7-ffda6c9d97b5",
-        "unconnected_items|170200000|133000000|701bdcec-b4c2-423e-af89-0b0ec61b34b9|4dbf9cfc-0340-4f55-9fa6-d77c62cef964",
-        "unconnected_items|184800000|133000000|e3e2caa6-f3b3-4a5e-9699-1e1c039c9218|e3f681ee-4e0f-49ae-b26e-64750f4fcc3d",
-        "unconnected_items|187000000|82000000|3b21e22e-15b0-4128-a4f7-0c8742fce15b|f11b2ea2-c1dc-426f-835c-343edbb8f903",
-        "unconnected_items|187000000|90500000|dd97a5eb-7a84-4d2b-a03a-cc799a098e92|4eee250e-3fd0-45cd-971c-4cccc7192d2e",
-        "unconnected_items|187150000|99000000|bfeddff9-c027-42d4-9eeb-88abe277e7e9|52f3830b-d51d-4913-bcd7-faa760e7b9f6",
-        "unconnected_items|188700000|82000000|95508a50-5b70-420b-abbe-06d28240ef24|5a245d21-44d8-4387-a62c-737b38f34bf2",
-        "unconnected_items|188700000|90500000|973d962a-2bde-411d-bfb4-a6348a4a61d5|ff687457-cf93-4034-a223-f443712b0d6e",
-        "unconnected_items|188850000|99000000|be463da4-6ec4-405b-9478-f713ba67503b|22578b31-bed4-41a4-8bea-acd962a55144"
+        "silk_edge_clearance|190470000|47000000|31c82d05-77cc-4ec1-b2ff-8e4c8cc33534|b4f8f201-b3b9-431c-8df7-ffda6c9d97b5"
       ],
       "meta": {
         "version": 2
