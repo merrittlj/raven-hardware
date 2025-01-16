@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Mosaic Labs")
 		(comment 1 "Lucas Merritt")
+		(comment 2 "Rev. 1 verified")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
