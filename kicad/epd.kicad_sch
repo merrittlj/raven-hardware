@@ -6,115 +6,14 @@
 	(paper "A4")
 	(title_block
 		(title "E-Paper Display Module")
-		(date "2024-09-03")
-		(rev "1")
+		(date "2025-01-27")
+		(rev "2")
 		(company "Mosaic Labs")
 		(comment 1 "Lucas Merritt")
 		(comment 2 "Rev. 1 verified")
+		(comment 3 "Final ready")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -665,251 +564,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:SolderJumper_3_Open"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Open"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 3-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Open_0_1"
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2153,7 +1807,7 @@
 		(at 96.52 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ebf9379-5691-4716-99ca-fbd2354e4eba")
+		(uuid "4edab9ce-a833-4aa5-9d5c-f50c8c700e2d")
 	)
 	(junction
 		(at 116.84 62.23)
@@ -2190,12 +1844,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0fa79c1-b3f6-4cd5-9e5b-e2a16226073d")
-	)
-	(junction
-		(at 134.62 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e39cb55e-5adf-47d7-ac0a-2cce9bca6bc2")
 	)
 	(junction
 		(at 132.08 53.34)
@@ -2295,26 +1943,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 140.97) (xy 129.54 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc1bd6f-245c-4284-aee0-72d009600065")
-	)
-	(wire
-		(pts
-			(xy 96.52 69.85) (xy 96.52 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a87686-166e-48da-a1cb-70b2736353e5")
-	)
-	(wire
-		(pts
 			(xy 81.28 48.26) (xy 87.63 48.26)
 		)
 		(stroke
@@ -2352,16 +1980,6 @@
 			(type default)
 		)
 		(uuid "28fa6c5a-b475-48d8-aca0-822b4dee0070")
-	)
-	(wire
-		(pts
-			(xy 134.62 161.29) (xy 134.62 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ba63c9-9638-463f-83a7-55fdbe2d0506")
 	)
 	(wire
 		(pts
@@ -2465,26 +2083,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 124.46) (xy 109.22 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e78ef1e-587e-4c4b-a565-4bde8713e92d")
-	)
-	(wire
-		(pts
-			(xy 101.6 132.08) (xy 109.22 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526d8763-52cc-4b00-823d-b54b09acb9cb")
-	)
-	(wire
-		(pts
 			(xy 96.52 69.85) (xy 102.87 69.85)
 		)
 		(stroke
@@ -2522,16 +2120,6 @@
 			(type default)
 		)
 		(uuid "5bc0017f-b100-4058-a5bd-698428ca03b0")
-	)
-	(wire
-		(pts
-			(xy 101.6 128.27) (xy 109.22 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f5e38c-0364-45e1-b710-b9b73c6b3e85")
 	)
 	(wire
 		(pts
@@ -2625,16 +2213,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 162.56) (xy 124.46 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac1a9ade-c3e3-4c3e-8532-a310aa3c8a81")
-	)
-	(wire
-		(pts
 			(xy 137.16 72.39) (xy 137.16 62.23)
 		)
 		(stroke
@@ -2705,26 +2283,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 152.4) (xy 102.87 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed7a5f51-82a4-4dbb-bb81-ff16d92334fb")
-	)
-	(wire
-		(pts
-			(xy 124.46 162.56) (xy 124.46 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec622ac-c3eb-4ec1-8893-6f2955a4bcf3")
-	)
-	(wire
-		(pts
 			(xy 180.34 54.61) (xy 191.77 54.61)
 		)
 		(stroke
@@ -2765,16 +2323,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 120.65) (xy 109.22 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc854a76-054e-4237-84ea-a708030e42eb")
-	)
-	(wire
-		(pts
 			(xy 189.23 96.52) (xy 191.77 96.52)
 		)
 		(stroke
@@ -2782,26 +2330,6 @@
 			(type default)
 		)
 		(uuid "fe80aa0d-3759-4353-8aa8-d4f78d6dd42b")
-	)
-	(text "Some\ndisplay ICs\nuse 0.47"
-		(exclude_from_sim no)
-		(at 139.7 146.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2c4d6ff0-7b84-4a2e-8160-081023cc02b4")
-	)
-	(text "DEFAULT 1"
-		(exclude_from_sim no)
-		(at 93.98 162.306 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9091433d-07ff-482f-b019-38041d92ce43")
 	)
 	(text "TSCL/TSDA\nunconnected\nas we do not need \ntemp. readings"
 		(exclude_from_sim no)
@@ -2815,23 +2343,13 @@
 	)
 	(text "Horribly annoying issue in previous\nrevision where NMOS pins were\nin the wrong order"
 		(exclude_from_sim no)
-		(at 96.266 82.804 0)
+		(at 120.904 83.312 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "b09bba3b-1e21-4c4d-ac7b-ce5dbbfe9ef7")
-	)
-	(text "DEFAULT 1"
-		(exclude_from_sim no)
-		(at 141.732 152.146 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c03ef872-4678-485c-939c-56fa62f92460")
 	)
 	(text "VPP GND because we\ndon't program OTP"
 		(exclude_from_sim no)
@@ -2842,27 +2360,6 @@
 			)
 		)
 		(uuid "d2aa56ee-f75b-4773-8bb3-8e29b434477b")
-	)
-	(text "3-line\n(PWR):\nNo CS/MISO\n\n4-line\n(GND, DEFAULT):\nCS/MISO"
-		(exclude_from_sim no)
-		(at 80.772 150.114 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f43e8142-2e92-4a90-9709-6c8da55f0efc")
-	)
-	(label "PREVGH"
-		(at 101.6 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08e279c4-2672-4fb8-ae82-0ec6ed28c889")
 	)
 	(label "PREVGL"
 		(at 137.16 72.39 90)
@@ -2886,17 +2383,6 @@
 		)
 		(uuid "2baede94-05a4-4bdd-9236-e51c10f535ba")
 	)
-	(label "BS"
-		(at 180.34 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33922a48-82d3-4193-b779-763936c2a759")
-	)
 	(label "GDR"
 		(at 180.34 54.61 0)
 		(fields_autoplaced yes)
@@ -2907,39 +2393,6 @@
 			(justify left bottom)
 		)
 		(uuid "3b4aca9d-e884-4a53-9d23-c2b59deea2f2")
-	)
-	(label "RESE_JP"
-		(at 129.54 140.97 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "460103ff-ceca-4eb7-aba5-503d354ad676")
-	)
-	(label "RESE"
-		(at 101.6 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "585d379b-ec7a-485a-b863-b48733e296d5")
-	)
-	(label "RESE_JP"
-		(at 96.52 78.74 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b16ef79-c5c7-4e51-891a-b671853588c0")
 	)
 	(label "PREVGH"
 		(at 114.3 72.39 90)
@@ -2963,28 +2416,6 @@
 		)
 		(uuid "76ea43e5-e1e7-4ff8-95f0-5793c855fd96")
 	)
-	(label "PREVGL"
-		(at 101.6 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bfe33d6-ccc2-46d7-845e-6735b8757ee2")
-	)
-	(label "GDR"
-		(at 101.6 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8799fc3d-b906-4dbe-a717-bd03f762e94f")
-	)
 	(label "GDR"
 		(at 81.28 63.5 0)
 		(fields_autoplaced yes)
@@ -2995,17 +2426,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac794f05-3208-4fdf-8002-0fea54d77f53")
-	)
-	(label "BS"
-		(at 102.87 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c07a7159-0111-48d0-ad1f-0a5a91aba4ae")
 	)
 	(label "PREVGL"
 		(at 182.88 107.95 0)
@@ -3160,18 +2580,6 @@
 			(justify left)
 		)
 		(uuid "fc43c8e2-b9d7-4763-9a6d-f6e169dabb7e")
-	)
-	(hierarchical_label "PWR"
-		(shape input)
-		(at 93.98 147.32 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff561c92-9dc4-428a-8e3e-c083343bcf8a")
 	)
 	(symbol
 		(lib_id "Transistor_FET:Si1308EDL")
@@ -3470,7 +2878,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 162.56 0)
+		(at 96.52 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3479,7 +2887,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ae25ab2-1f46-4323-9f40-4a94747f926a")
 		(property "Reference" "#PWR0405"
-			(at 134.62 168.91 0)
+			(at 96.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +2896,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 167.64 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +2905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 162.56 0)
+			(at 96.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +2914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 162.56 0)
+			(at 96.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +2923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 162.56 0)
+			(at 96.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +2945,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 157.48 0)
+		(at 96.52 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3545,7 +2953,7 @@
 		(dnp no)
 		(uuid "212a9f6c-97c0-4b55-9ced-7a1cc7b06800")
 		(property "Reference" "R403"
-			(at 139.446 156.21 0)
+			(at 101.346 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +2961,7 @@
 			)
 		)
 		(property "Value" "3"
-			(at 137.668 158.75 0)
+			(at 99.568 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +2969,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.842 157.48 90)
+			(at 94.742 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3570,7 +2978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 157.48 0)
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +2987,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 157.48 0)
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +2996,7 @@
 			)
 		)
 		(property "JLC" "XXXXXX"
-			(at 134.62 157.48 0)
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3005,7 @@
 			)
 		)
 		(property "LCSC" "XXXXXX"
-			(at 134.62 157.48 0)
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,91 +3099,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
 					(reference "C407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 128.27 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2368fa6d-fb6a-4ed5-a1b5-4eab0da2d4a2")
-		(property "Reference" "TP403"
-			(at 95.25 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PREVGH_TEST"
-			(at 114.808 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 109.22 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 109.22 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4944067d-8d8b-4c01-aec3-c42bc4f693ab")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "TP403")
 					(unit 1)
 				)
 			)
@@ -4391,7 +3714,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 157.48 0)
+		(at 180.34 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4400,7 +3723,7 @@
 		(fields_autoplaced yes)
 		(uuid "627ea642-4ff7-4819-90c9-6fa052ae0803")
 		(property "Reference" "#PWR0403"
-			(at 93.98 163.83 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +3732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 162.56 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +3741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 157.48 0)
+			(at 180.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +3750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 157.48 0)
+			(at 180.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +3759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 157.48 0)
+			(at 180.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +3789,7 @@
 		(dnp no)
 		(uuid "65942d45-23f9-4a3c-8823-cf0d47b89544")
 		(property "Reference" "D402"
-			(at 132.08 49.53 90)
+			(at 132.08 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +3797,7 @@
 			)
 		)
 		(property "Value" "MBR0530"
-			(at 132.08 52.07 90)
+			(at 132.08 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,181 +4026,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 124.46 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8973b8bb-d38f-40f4-8946-f9bb41d2a1b1")
-		(property "Reference" "R402"
-			(at 119.634 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47"
-			(at 119.634 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 122.682 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6489cae2-f246-4980-8b39-3f608204596d")
-		)
-		(pin "1"
-			(uuid "88159210-88d5-4e1d-8686-4997dee4e88e")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "R402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 93.98 152.4 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ad71dc2-850c-4b34-ad11-e47660534aa8")
-		(property "Reference" "JP401"
-			(at 103.886 154.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BS_L_JP"
-			(at 103.886 157.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 93.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "08556368-74a6-4e75-8ee4-f171e7ca10cf")
-		)
-		(pin "2"
-			(uuid "3f84379e-efb8-4e64-aae7-4a71f6bd508c")
-		)
-		(pin "1"
-			(uuid "7833f2a3-ff5c-4829-9b75-9dcd7dbcd1bd")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "JP401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 81.28 52.07 0)
 		(unit 1)
@@ -5035,90 +4183,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
 					(reference "C409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92837280-c4b6-4531-af36-97cf975aa94b")
-		(property "Reference" "TP401"
-			(at 95.25 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GDR_TEST"
-			(at 114.808 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 109.22 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 109.22 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "442c21e6-05e1-421f-8b7b-871ae71a9098")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "TP401")
 					(unit 1)
 				)
 			)
@@ -5406,94 +4470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 129.54 153.67 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad6fafb3-d35f-4e85-9a34-ca6961faa7b2")
-		(property "Reference" "JP402"
-			(at 121.158 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESE_JP"
-			(at 121.158 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
-			(at 129.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 129.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 129.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 129.54 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e03601a5-336d-4ef4-bc64-90d1e7222a03")
-		)
-		(pin "1"
-			(uuid "42d10bc0-76cc-4c3b-9236-58329c900eb7")
-		)
-		(pin "3"
-			(uuid "2d8be4dc-a941-48bc-ac96-9c678ce79230")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "JP402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Raven:FPC24-0.5MM-EPD")
 		(at 199.39 80.01 0)
 		(unit 1)
@@ -5648,91 +4624,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
 					(reference "EPD_FPC401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 132.08 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c45d9c4d-6efc-4a4d-962f-9a392f38d12e")
-		(property "Reference" "TP404"
-			(at 95.25 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PREVGL_TEST"
-			(at 114.808 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 109.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 109.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "382064cb-4e28-4dc1-915a-0a38bb9edac9")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "TP404")
 					(unit 1)
 				)
 			)
@@ -5964,90 +4855,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
 					(reference "#PWR0401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da84ae64-761b-45ee-9a81-a6751e88736c")
-		(property "Reference" "TP402"
-			(at 95.25 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RESE_TEST"
-			(at 114.808 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 109.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 109.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6ae956b-9c0e-4496-b34a-727d0fa9fdd2")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/0b88743c-b183-4be0-afee-bdc67a5fc676"
-					(reference "TP402")
 					(unit 1)
 				)
 			)

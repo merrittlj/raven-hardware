@@ -11,6 +11,7 @@
 		(company "Mosaic Labs")
 		(comment 1 "Lucas Merritt")
 		(comment 2 "Rev. 1 verified")
+		(comment 3 "Final ready")
 	)
 	(lib_symbols
 		(symbol "Device:R"

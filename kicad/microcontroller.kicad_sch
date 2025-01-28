@@ -8,6 +8,8 @@
 		(title "Microcontroller")
 		(date "2025-01-27")
 		(rev "1")
+		(company "Mosaic Labs")
+		(comment 1 "Lucas Merritt")
 	)
 	(lib_symbols
 		(symbol "Device:Antenna"
@@ -2344,6 +2346,12 @@
 		(uuid "49bb2812-4c63-46a3-a711-3abeedbc5cfa")
 	)
 	(junction
+		(at 99.06 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a0ae6c1-8d79-4e4f-ae33-9435dd4b99ac")
+	)
+	(junction
 		(at 115.57 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2565,13 +2573,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 59.69) (xy 102.87 59.69)
+			(xy 91.44 59.69) (xy 99.06 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62c9c3b4-5b30-42f6-8a07-241b9c0e2604")
+	)
+	(wire
+		(pts
+			(xy 99.06 59.69) (xy 102.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6627c0e0-ac82-456b-918b-16852f530c64")
 	)
 	(wire
 		(pts
@@ -2592,6 +2610,16 @@
 			(type default)
 		)
 		(uuid "6d449c1f-37db-481a-a9d1-cfa923186e53")
+	)
+	(wire
+		(pts
+			(xy 99.06 62.23) (xy 99.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d6642f-ff81-44f2-826f-6f188bcddebc")
 	)
 	(wire
 		(pts
@@ -2722,6 +2750,16 @@
 			(type default)
 		)
 		(uuid "a964823b-2d14-4581-9ab5-4d30282eef36")
+	)
+	(wire
+		(pts
+			(xy 102.87 62.23) (xy 99.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb58afe-9373-45c1-9947-3a7b398017a9")
 	)
 	(wire
 		(pts
@@ -3148,6 +3186,18 @@
 		)
 		(uuid "afd8a97f-5b3e-42bb-9f0a-e5709e56092d")
 	)
+	(hierarchical_label "BAT_STAT1"
+		(shape input)
+		(at 66.04 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b128c70b-9b5c-4ba7-a5cc-075a73ccd9fe")
+	)
 	(hierarchical_label "DP"
 		(shape bidirectional)
 		(at 151.13 85.09 0)
@@ -3160,6 +3210,18 @@
 		)
 		(uuid "b1d13c33-c50d-44f8-851f-b6dc23ca5b55")
 	)
+	(hierarchical_label "BAT_STAT2"
+		(shape input)
+		(at 66.04 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b45a2b4c-2d7a-4099-a38a-9836544382a9")
+	)
 	(hierarchical_label "TIM2_CH1"
 		(shape output)
 		(at 149.86 54.61 0)
@@ -3171,6 +3233,18 @@
 			(justify left)
 		)
 		(uuid "b84c135b-5a3f-4171-9484-c6659dec859d")
+	)
+	(hierarchical_label "BAT_MR"
+		(shape output)
+		(at 66.04 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c16439ca-5841-4842-bbec-292d3fb68766")
 	)
 	(hierarchical_label "LED_BLUE"
 		(shape output)
