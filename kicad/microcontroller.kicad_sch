@@ -2776,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 80.01) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c75ae74-2492-436e-8148-de6a020c375f")
+	)
+	(wire
+		(pts
 			(xy 133.35 46.99) (xy 130.81 46.99)
 		)
 		(stroke
@@ -4030,7 +4040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3705227-d379-49eb-b411-024c21c869c7")
-		(property "Reference" "#PWR0701"
+		(property "Reference" "#PWR0703"
 			(at 123.19 153.67 0)
 			(effects
 				(font
@@ -4081,7 +4091,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0701")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -4279,7 +4289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6e0c40a-b1b3-417e-b38e-7964981a0720")
-		(property "Reference" "#PWR0703"
+		(property "Reference" "#PWR0701"
 			(at 78.74 78.74 0)
 			(effects
 				(font
@@ -4330,7 +4340,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0703")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)

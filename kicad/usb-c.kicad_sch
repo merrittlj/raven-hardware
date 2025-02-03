@@ -1273,6 +1273,16 @@
 		)
 		(uuid "460356b8-8dec-4656-9be5-ad5ab20a63a0")
 	)
+	(text "Or ESD441 if in stock"
+		(exclude_from_sim no)
+		(at 143.51 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "712dfa38-c1eb-4071-b4e0-b398ee008c66")
+	)
 	(text "Make sure to\nplace these\ndiodes correctly"
 		(exclude_from_sim no)
 		(at 120.396 129.032 0)
