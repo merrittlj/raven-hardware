@@ -510,251 +510,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_3_Open"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Open"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 3-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Open_0_1"
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Raven:BQ25185"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1602,16 +1357,16 @@
 		(uuid "088784b0-a16f-4b9c-94e5-ed3e2839d545")
 	)
 	(junction
+		(at 146.05 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bb1067f-7339-4b36-bd4e-1eb67e9bddd5")
+	)
+	(junction
 		(at 190.5 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1322aadc-4693-4ad9-b27c-d9c1ef2e9b83")
-	)
-	(junction
-		(at 147.32 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18dea1a6-7225-40d2-8018-d0801134ac1e")
 	)
 	(junction
 		(at 171.45 66.04)
@@ -1675,6 +1430,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 71.12) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5f87ce-56fc-433a-af41-40fcd3fa87a1")
+	)
+	(wire
+		(pts
 			(xy 190.5 134.62) (xy 182.88 134.62)
 		)
 		(stroke
@@ -1682,6 +1447,16 @@
 			(type default)
 		)
 		(uuid "1013d978-2425-4b5b-b164-96ab7aa7806b")
+	)
+	(wire
+		(pts
+			(xy 146.05 66.04) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8d30c1-8d46-430c-a535-534ca53bef2f")
 	)
 	(wire
 		(pts
@@ -1755,16 +1530,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 147.32 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "353d0d6f-9ae8-4aa1-818f-4940ca427589")
-	)
-	(wire
-		(pts
 			(xy 142.24 67.31) (xy 140.97 67.31)
 		)
 		(stroke
@@ -1775,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 71.12) (xy 151.13 71.12)
+			(xy 140.97 71.12) (xy 146.05 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1802,6 +1567,16 @@
 			(type default)
 		)
 		(uuid "539458f4-1df2-4c8f-909b-e77d5c97e5af")
+	)
+	(wire
+		(pts
+			(xy 146.05 66.04) (xy 171.45 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667cbf18-63ae-45c5-80a3-1933735f3eeb")
 	)
 	(wire
 		(pts
@@ -1963,16 +1738,6 @@
 		)
 		(uuid "f5eb2aa8-d8f2-4ab2-b219-d07c16e38099")
 	)
-	(wire
-		(pts
-			(xy 151.13 66.04) (xy 171.45 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f938ff35-2a2f-484f-b019-d2990244c354")
-	)
 	(text "SYS:\nPower-path when charging,\nbattery supplement when not"
 		(exclude_from_sim no)
 		(at 169.418 55.372 0)
@@ -1992,6 +1757,16 @@
 			)
 		)
 		(uuid "102836b9-97ca-4b22-a44c-8010b1cd6ada")
+	)
+	(text "Power switch handled\noutside the module"
+		(exclude_from_sim no)
+		(at 214.376 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "291d911a-4816-4bd5-9645-dd1bee7ed588")
 	)
 	(text "10k pulls to\nsafe TS reading,\nnot fully down"
 		(exclude_from_sim no)
@@ -2022,16 +1797,6 @@
 			)
 		)
 		(uuid "5fe52a65-0bcd-48c1-bbd3-e6129ef7e3d8")
-	)
-	(text "DEFAULT 1"
-		(exclude_from_sim no)
-		(at 156.21 65.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9cb7b311-de75-46f5-8982-7ae5741de719")
 	)
 	(label "SYS_T"
 		(at 182.88 134.62 0)
@@ -2090,18 +1855,6 @@
 			(justify right)
 		)
 		(uuid "332b4547-69af-494b-9a7f-d77aa98703d5")
-	)
-	(hierarchical_label "BATTP"
-		(shape output)
-		(at 147.32 60.96 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3618b3c7-8557-4ae9-ad78-49f024e463c7")
 	)
 	(hierarchical_label "BATTP"
 		(shape output)
@@ -3475,78 +3228,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/d2226d13-9ee7-410c-817d-a66f223af34c"
 					(reference "C301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 147.32 66.04 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "af489d2c-6e22-41ec-bfd1-062e3dd01802")
-		(property "Reference" "JP301"
-			(at 148.844 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LDO_JP"
-			(at 148.844 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
-			(at 147.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 147.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b47b690-073c-45d9-8640-fc59fbc2921f")
-		)
-		(pin "1"
-			(uuid "d8e55fd7-805e-41ba-a013-afe8c0c474ee")
-		)
-		(pin "3"
-			(uuid "2b567b17-c904-4f9c-9804-891a90692f53")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/d2226d13-9ee7-410c-817d-a66f223af34c"
-					(reference "JP301")
 					(unit 1)
 				)
 			)

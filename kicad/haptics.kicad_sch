@@ -921,7 +921,7 @@
 		)
 		(uuid "ba674474-a213-45e9-b413-28a8fdfc77e9")
 	)
-	(text "Motor connected to TPs"
+	(text "Motor connected to TP pads"
 		(exclude_from_sim no)
 		(at 162.306 102.87 0)
 		(effects
@@ -1045,7 +1045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OUTN_TEST"
+		(property "Value" "OUTN_PAD"
 			(at 152.908 109.22 90)
 			(effects
 				(font
@@ -1129,7 +1129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OUTP_TEST"
+		(property "Value" "OUTP_PAD"
 			(at 152.908 96.52 90)
 			(effects
 				(font

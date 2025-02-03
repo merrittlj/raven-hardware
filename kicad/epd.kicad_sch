@@ -2341,9 +2341,9 @@
 		)
 		(uuid "aa91d75e-b218-4681-8b71-977b154ce147")
 	)
-	(text "Horribly annoying issue in previous\nrevision where NMOS pins were\nin the wrong order"
+	(text "Make sure NMOS pins\nare correct!! You can\neasily get this wrong"
 		(exclude_from_sim no)
-		(at 120.904 83.312 0)
+		(at 111.506 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
