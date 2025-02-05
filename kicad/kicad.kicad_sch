@@ -2546,7 +2546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Raven:JS102000SAQN"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.44 160.528 90)
 			(effects
 				(font
@@ -2854,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Raven:JS102000SAQN"
+		(property "Footprint" "Raven:SSSS811101"
 			(at 137.16 176.53 0)
 			(effects
 				(font
