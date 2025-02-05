@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Microcontroller")
-		(date "2025-01-27")
+		(date "2025-02-05")
 		(rev "1")
 		(company "Mosaic Labs")
 		(comment 1 "Lucas Merritt")
@@ -4632,7 +4632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 122.8852 60.96 0)
 			(effects
 				(font
@@ -4702,7 +4702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.7248 106.68 0)
 			(effects
 				(font
@@ -5582,7 +5582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Raven:XTAL_ECS-160-9-37-CKM-TR"
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.5352 60.96 0)
 			(effects
 				(font
@@ -5869,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.59 54.9148 0)
 			(effects
 				(font
@@ -5938,7 +5938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 129.2352 60.96 0)
 			(effects
 				(font
@@ -6008,7 +6008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -6075,7 +6075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 207.01 109.22 0)
 			(effects
 				(font
@@ -6141,7 +6141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 103.8352 60.96 0)
 			(effects
 				(font
@@ -6211,7 +6211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.1652 78.74 0)
 			(effects
 				(font
@@ -6280,7 +6280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 110.1852 60.96 0)
 			(effects
 				(font
@@ -6417,7 +6417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 207.01 121.92 0)
 			(effects
 				(font
@@ -6814,7 +6814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 207.01 135.89 0)
 			(effects
 				(font
@@ -6879,7 +6879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 146.05 66.3448 0)
 			(effects
 				(font
@@ -6949,7 +6949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 207.01 129.54 0)
 			(effects
 				(font
@@ -7080,7 +7080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 121.6152 39.37 0)
 			(effects
 				(font
@@ -7149,7 +7149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 115.2652 39.37 0)
 			(effects
 				(font
@@ -7350,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 97.79 104.14 0)
 			(effects
 				(font

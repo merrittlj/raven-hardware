@@ -764,7 +764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Raven:PROTOTYPE_BUTTONS"
+		(property "Footprint" "Raven:EVQPUA"
 			(at 133.35 83.82 0)
 			(effects
 				(font
@@ -996,7 +996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Raven:PROTOTYPE_BUTTONS"
+		(property "Footprint" "Raven:EVQPUA"
 			(at 133.35 110.49 0)
 			(effects
 				(font
@@ -1228,7 +1228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Raven:PROTOTYPE_BUTTONS"
+		(property "Footprint" "Raven:EVQPUA"
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -1381,7 +1381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Raven:PROTOTYPE_BUTTONS"
+		(property "Footprint" "Raven:EVQPUA"
 			(at 161.29 110.49 0)
 			(effects
 				(font
