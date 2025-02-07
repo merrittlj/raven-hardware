@@ -3255,12 +3255,6 @@
 		(uuid "894c1c9c-a31a-4f4b-a56d-69afa73abe22")
 	)
 	(junction
-		(at 115.57 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90ad0ea6-a90f-467b-8bef-ef17ffefda2f")
-	)
-	(junction
 		(at 59.69 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6738,70 +6732,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
 					(reference "#PWR0706")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 115.57 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c994ed48-bb8a-4081-8da8-17494c5255e1")
-		(property "Reference" "TP702"
-			(at 115.316 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRST_PAD"
-			(at 115.316 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 120.65 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 115.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "524309e9-6d7f-4f16-b3e0-f40a9ce3659b")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "TP702")
 					(unit 1)
 				)
 			)
