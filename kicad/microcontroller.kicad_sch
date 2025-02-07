@@ -4305,7 +4305,7 @@
 		)
 		(uuid "4afc08cf-4dc1-4a49-a9b8-2848c0b048ce")
 	)
-	(hierarchical_label "LED_GREEN"
+	(hierarchical_label "LED_BATT"
 		(shape output)
 		(at 162.56 116.84 0)
 		(fields_autoplaced yes)
@@ -4329,7 +4329,7 @@
 		)
 		(uuid "59884cab-8557-4397-ad33-9c5239e6e0f9")
 	)
-	(hierarchical_label "LED_RED"
+	(hierarchical_label "LED_F1"
 		(shape output)
 		(at 162.56 119.38 0)
 		(fields_autoplaced yes)
@@ -4497,7 +4497,7 @@
 		)
 		(uuid "c16439ca-5841-4842-bbec-292d3fb68766")
 	)
-	(hierarchical_label "LED_BLUE"
+	(hierarchical_label "LED_F2"
 		(shape output)
 		(at 162.56 129.54 0)
 		(fields_autoplaced yes)
@@ -4614,7 +4614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01aeff98-edf7-40ee-9f07-84ed6da97509")
-		(property "Reference" "C713"
+		(property "Reference" "C708"
 			(at 119.126 48.514 0)
 			(effects
 				(font
@@ -4668,7 +4668,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C713")
+					(reference "C708")
 					(unit 1)
 				)
 			)
@@ -4684,7 +4684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "021c6621-ff8c-4e75-a8df-c61379d377a1")
-		(property "Reference" "C704"
+		(property "Reference" "C701"
 			(at 68.58 101.6 0)
 			(effects
 				(font
@@ -4738,7 +4738,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C704")
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -4753,7 +4753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0808f2c4-91ac-47ef-b9b3-0ffad5a44c38")
-		(property "Reference" "C702"
+		(property "Reference" "C710"
 			(at 156.21 48.26 90)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C702")
+					(reference "C710")
 					(unit 1)
 				)
 			)
@@ -4822,7 +4822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d22c867-950a-4c3e-b309-9759a9343c63")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0709"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -4873,7 +4873,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0706")
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
@@ -4889,7 +4889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ead5a34-cab0-43cf-9e87-d480533309c0")
-		(property "Reference" "U701"
+		(property "Reference" "U702"
 			(at 143.1641 162.56 0)
 			(effects
 				(font
@@ -5145,7 +5145,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "U701")
+					(reference "U702")
 					(unit 1)
 				)
 			)
@@ -5161,7 +5161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "182d882f-86f2-42d7-954e-0364f37777d1")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR0701"
 			(at 76.2 85.09 0)
 			(effects
 				(font
@@ -5212,7 +5212,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0707")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -5298,7 +5298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28e46843-4190-48f4-a040-ad00b454da0f")
-		(property "Reference" "#PWR0704"
+		(property "Reference" "#PWR0705"
 			(at 102.87 67.31 0)
 			(effects
 				(font
@@ -5349,7 +5349,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0704")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -5365,7 +5365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31840436-d67a-4656-ac6a-ac166391726b")
-		(property "Reference" "#PWR0710"
+		(property "Reference" "#PWR0702"
 			(at 76.2 114.3 0)
 			(effects
 				(font
@@ -5416,7 +5416,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0710")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -5432,7 +5432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3255b828-9905-456d-a08c-8d04db2d9962")
-		(property "Reference" "#PWR0705"
+		(property "Reference" "#PWR0708"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -5483,7 +5483,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0705")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
@@ -5566,7 +5566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3df03557-4b86-4e5e-8ab2-5c48d8802ead")
-		(property "Reference" "Y702"
+		(property "Reference" "Y701"
 			(at 96.012 82.042 90)
 			(effects
 				(font
@@ -5624,7 +5624,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "Y702")
+					(reference "Y701")
 					(unit 1)
 				)
 			)
@@ -5639,7 +5639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ff030f9-ae4d-4bf2-a161-5c5d75373cb3")
-		(property "Reference" "C712"
+		(property "Reference" "C706"
 			(at 112.776 48.514 0)
 			(effects
 				(font
@@ -5693,7 +5693,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C712")
+					(reference "C706")
 					(unit 1)
 				)
 			)
@@ -5709,7 +5709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52da415a-74b3-4476-8662-e6d1ab8d4da7")
-		(property "Reference" "#PWR0709"
+		(property "Reference" "#PWR0710"
 			(at 207.01 110.49 0)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0709")
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)
@@ -5853,7 +5853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64cad704-c497-4ed4-802e-b654d73d6971")
-		(property "Reference" "C701"
+		(property "Reference" "C711"
 			(at 156.21 54.61 90)
 			(effects
 				(font
@@ -5905,7 +5905,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C701")
+					(reference "C711")
 					(unit 1)
 				)
 			)
@@ -5920,7 +5920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69221e27-0a8a-43db-9136-f6568e3bae8b")
-		(property "Reference" "C714"
+		(property "Reference" "C709"
 			(at 125.476 48.514 0)
 			(effects
 				(font
@@ -5974,7 +5974,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C714")
+					(reference "C709")
 					(unit 1)
 				)
 			)
@@ -6123,7 +6123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8118322e-163a-4cf0-b917-ade141ed2159")
-		(property "Reference" "C707"
+		(property "Reference" "C703"
 			(at 100.076 48.514 0)
 			(effects
 				(font
@@ -6177,7 +6177,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C707")
+					(reference "C703")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dfbbf67-7192-4854-92a8-2ae6c14097f9")
-		(property "Reference" "C703"
+		(property "Reference" "C702"
 			(at 80.01 73.6599 0)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C703")
+					(reference "C702")
 					(unit 1)
 				)
 			)
@@ -6262,7 +6262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ca67160-d574-4a19-b3dc-81b3ad802242")
-		(property "Reference" "C711"
+		(property "Reference" "C704"
 			(at 106.426 48.514 0)
 			(effects
 				(font
@@ -6316,7 +6316,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C711")
+					(reference "C704")
 					(unit 1)
 				)
 			)
@@ -6332,7 +6332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3705227-d379-49eb-b411-024c21c869c7")
-		(property "Reference" "#PWR0703"
+		(property "Reference" "#PWR0707"
 			(at 123.19 153.67 0)
 			(effects
 				(font
@@ -6383,7 +6383,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0703")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -6467,7 +6467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfe29290-2885-4fdc-b091-111352346811")
-		(property "Reference" "U702"
+		(property "Reference" "U701"
 			(at 76.2 91.44 0)
 			(effects
 				(font
@@ -6531,7 +6531,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "U702")
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -6547,7 +6547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4e4ffb0-9281-4da9-88fb-727d45fe7006")
-		(property "Reference" "#PWR0708"
+		(property "Reference" "#PWR0706"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -6598,7 +6598,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0708")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -6613,7 +6613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c994ed48-bb8a-4081-8da8-17494c5255e1")
-		(property "Reference" "TP701"
+		(property "Reference" "TP702"
 			(at 115.316 64.77 0)
 			(effects
 				(font
@@ -6662,7 +6662,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "TP701")
+					(reference "TP702")
 					(unit 1)
 				)
 			)
@@ -6863,7 +6863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d187d957-4bdd-4800-80c9-b22139d0ec37")
-		(property "Reference" "C708"
+		(property "Reference" "C712"
 			(at 158.496 66.294 90)
 			(effects
 				(font
@@ -6915,7 +6915,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C708")
+					(reference "C712")
 					(unit 1)
 				)
 			)
@@ -7062,7 +7062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd37545c-f8a8-4753-9daf-c565fe90196d")
-		(property "Reference" "C710"
+		(property "Reference" "C707"
 			(at 124.46 34.2899 0)
 			(effects
 				(font
@@ -7116,7 +7116,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C710")
+					(reference "C707")
 					(unit 1)
 				)
 			)
@@ -7131,7 +7131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df31492f-1bbb-4390-9acc-5f645671675f")
-		(property "Reference" "C709"
+		(property "Reference" "C705"
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -7185,7 +7185,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "C709")
+					(reference "C705")
 					(unit 1)
 				)
 			)
@@ -7201,7 +7201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6e0c40a-b1b3-417e-b38e-7964981a0720")
-		(property "Reference" "#PWR0701"
+		(property "Reference" "#PWR0703"
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -7252,7 +7252,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0701")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -7268,7 +7268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1a5505-b458-4fad-8abb-9a630fcf5403")
-		(property "Reference" "#PWR0702"
+		(property "Reference" "#PWR0704"
 			(at 97.79 129.54 0)
 			(effects
 				(font
@@ -7319,7 +7319,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "#PWR0702")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -7334,7 +7334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea3945e1-53ad-4b0f-9605-e52e20a83f02")
-		(property "Reference" "TP702"
+		(property "Reference" "TP701"
 			(at 86.36 106.934 90)
 			(effects
 				(font
@@ -7383,7 +7383,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/99a09460-9ccb-48eb-a131-ff3ce53fbef9"
-					(reference "TP702")
+					(reference "TP701")
 					(unit 1)
 				)
 			)
