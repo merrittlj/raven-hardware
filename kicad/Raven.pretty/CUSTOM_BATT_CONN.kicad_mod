@@ -63,8 +63,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -1.27 -1.524)
-		(end 3.302 1.524)
+		(start -1.2 -1.44)
+		(end 3.264 1.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -72,46 +72,6 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "1d1a5bbc-9941-42cf-b540-28a68c6c5032")
-	)
-	(fp_line
-		(start -1.95 -1.35)
-		(end -1.95 6.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a5c23b16-c8b9-4591-9a87-f1904b2245fa")
-	)
-	(fp_line
-		(start -1.95 6.25)
-		(end 3.95 6.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "1afda07c-6b1e-44f3-8e79-a38bac7bba26")
-	)
-	(fp_line
-		(start -1.25 -1.35)
-		(end -1.95 -1.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "5efbc507-25fc-4ec4-97e2-4cab542b045e")
-	)
-	(fp_line
-		(start -1.25 0.25)
-		(end -1.25 -1.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "cf6b9ab7-546f-4f3c-ae56-eb13aa12de1c")
 	)
 	(fp_line
 		(start -0.5 1.375)
@@ -143,46 +103,6 @@
 		(layer "F.Fab")
 		(uuid "3b1e9b0e-ab76-4ccf-b71a-2d7c0948d7b6")
 	)
-	(fp_line
-		(start 3.25 -1.35)
-		(end 3.25 0.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "5c167ddf-aaad-4167-bdb0-84db452cf813")
-	)
-	(fp_line
-		(start 3.25 0.25)
-		(end -1.25 0.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "872c8f61-f9d3-4ba6-a6f9-c610429b98aa")
-	)
-	(fp_line
-		(start 3.95 -1.35)
-		(end 3.25 -1.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a488d35d-ad87-42ec-b67a-4029d270427e")
-	)
-	(fp_line
-		(start 3.95 6.25)
-		(end 3.95 -1.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d4bf6ec8-8c81-47a1-9fd1-73bbfd5f0724")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 1 2.5 0)
 		(layer "F.Fab")
@@ -210,16 +130,5 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "965ef592-ebed-4b03-9c45-9a1a7210345c")
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
 	)
 )

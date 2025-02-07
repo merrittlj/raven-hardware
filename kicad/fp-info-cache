@@ -1,4 +1,4 @@
-36359753359810
+36359802565733
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85428,13 +85428,6 @@ WiFi IEEE802.11 b/g/n
 44
 44
 Raven
-AN3359_ANT
-
-
-0
-0
-0
-Raven
 CONN24x1_FH34SRJ-24S-0.5SH50_HIR
 
 FH34SRJ-24S-0.5SH50 
@@ -85450,8 +85443,15 @@ F3311A7H121024E200
 26
 Raven
 CUSTOM_BATT_CONN
-JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
-connector JST PH top entry
+
+
+0
+2
+2
+Raven
+CUSTOM_MOTOR_CONN
+
+
 0
 2
 2
