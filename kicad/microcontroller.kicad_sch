@@ -3684,16 +3684,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 93.98) (xy 158.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83696ed2-55fb-478d-89bd-c2c5bc6ee053")
-	)
-	(wire
-		(pts
 			(xy 158.75 86.36) (xy 162.56 86.36)
 		)
 		(stroke
@@ -4495,7 +4485,7 @@
 		)
 		(uuid "b128c70b-9b5c-4ba7-a5cc-075a73ccd9fe")
 	)
-	(hierarchical_label "DP"
+	(hierarchical_label "D+"
 		(shape bidirectional)
 		(at 162.56 104.14 0)
 		(fields_autoplaced yes)
@@ -4543,18 +4533,6 @@
 		)
 		(uuid "b84c135b-5a3f-4171-9484-c6659dec859d")
 	)
-	(hierarchical_label "BAT_MR"
-		(shape output)
-		(at 162.56 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c16439ca-5841-4842-bbec-292d3fb68766")
-	)
 	(hierarchical_label "LED_F2"
 		(shape output)
 		(at 162.56 129.54 0)
@@ -4591,7 +4569,7 @@
 		)
 		(uuid "d4e31563-4f63-4b1b-a527-cf92a235323b")
 	)
-	(hierarchical_label "DM"
+	(hierarchical_label "D-"
 		(shape bidirectional)
 		(at 162.56 101.6 0)
 		(fields_autoplaced yes)

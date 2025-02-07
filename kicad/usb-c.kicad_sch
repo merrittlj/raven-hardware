@@ -1325,8 +1325,8 @@
 		)
 		(uuid "ede30a3b-725d-4a31-a1aa-ef988e6d58df")
 	)
-	(hierarchical_label "DM"
-		(shape output)
+	(hierarchical_label "D-"
+		(shape bidirectional)
 		(at 120.65 106.68 90)
 		(fields_autoplaced yes)
 		(effects
@@ -1337,8 +1337,8 @@
 		)
 		(uuid "51ac9b55-a051-4ae3-aa6f-3573b7eaf838")
 	)
-	(hierarchical_label "DP"
-		(shape output)
+	(hierarchical_label "D+"
+		(shape bidirectional)
 		(at 115.57 114.3 90)
 		(fields_autoplaced yes)
 		(effects
