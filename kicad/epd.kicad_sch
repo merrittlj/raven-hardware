@@ -4656,7 +4656,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4cf69e5-135d-406b-8493-339fa9bf0f1c")
 		(property "Reference" "EPD_FPC401"
 			(at 205.74 80.0099 0)
@@ -4676,7 +4675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Raven:CONN_F3311A7H121024E200_AMP"
+		(property "Footprint" "Raven:CONN_F3311A7H121024E200_AMP_FACE_UP"
 			(at 196.85 80.01 0)
 			(effects
 				(font

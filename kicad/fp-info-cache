@@ -1,4 +1,4 @@
-36359802565733
+38108566143055
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85435,7 +85435,14 @@ FH34SRJ-24S-0.5SH50
 26
 26
 Raven
-CONN_F3311A7H121024E200_AMP
+CONN_F3311A7H121024E200_AMP_FACE_DOWN
+
+F3311A7H121024E200 
+0
+26
+26
+Raven
+CONN_F3311A7H121024E200_AMP_FACE_UP
 
 F3311A7H121024E200 
 0
