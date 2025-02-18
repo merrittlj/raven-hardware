@@ -12,108 +12,6 @@
 		(comment 1 "Lucas Merritt")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -1233,16 +1131,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 134.62) (xy 182.88 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1013d978-2425-4b5b-b164-96ab7aa7806b")
-	)
-	(wire
-		(pts
 			(xy 146.05 66.04) (xy 146.05 71.12)
 		)
 		(stroke
@@ -1492,17 +1380,6 @@
 		(uuid "5fe52a65-0bcd-48c1-bbd3-e6129ef7e3d8")
 	)
 	(label "SYS_T"
-		(at 182.88 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1de935a-0418-40f8-ab64-3cbc25269012")
-	)
-	(label "SYS_T"
 		(at 157.48 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1524,18 +1401,6 @@
 			(justify left)
 		)
 		(uuid "11c1d1ee-5abc-42c7-9a41-30ab4dde09a8")
-	)
-	(hierarchical_label "REGV"
-		(shape output)
-		(at 190.5 142.24 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12fc662a-3d29-4a6b-9749-da22cb8b6465")
 	)
 	(hierarchical_label "BATTP"
 		(shape output)
@@ -1608,18 +1473,6 @@
 			(justify left)
 		)
 		(uuid "8c05a145-6c17-4416-a7e4-6640e6669f6b")
-	)
-	(hierarchical_label "BATTP"
-		(shape output)
-		(at 190.5 128.27 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a38767e5-7566-4e83-9117-7924d21d38b4")
 	)
 	(hierarchical_label "CE_N"
 		(shape input)
@@ -1962,90 +1815,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 190.5 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23a89a9d-96b6-449b-aa7b-e6157ecc5ab2")
-		(property "Reference" "TP301"
-			(at 196.088 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BATTP_TEST"
-			(at 196.088 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 190.5 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 190.5 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 190.5 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 190.5 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec4ae041-9dcb-4242-a4c7-b8e6c58243e6")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/d2226d13-9ee7-410c-817d-a66f223af34c"
-					(reference "TP301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 76.2 0)
 		(unit 1)
@@ -2183,90 +1952,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 190.5 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a7f6e52-1521-4229-b0e6-3f828e0d05b2")
-		(property "Reference" "TP303"
-			(at 196.088 140.208 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LDO_TEST"
-			(at 196.088 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 190.5 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 190.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 190.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 190.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa15e812-6e6a-4cba-8e3b-7d0349b1c276")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/d2226d13-9ee7-410c-817d-a66f223af34c"
-					(reference "TP303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 106.68 116.84 0)
 		(unit 1)
@@ -2331,91 +2016,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/d2226d13-9ee7-410c-817d-a66f223af34c"
 					(reference "C301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 190.5 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bac1b45-c176-466e-acb4-92ac78b2e417")
-		(property "Reference" "TP302"
-			(at 195.58 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SYS_TEST"
-			(at 195.58 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 190.5 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 190.5 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "XXXXXX"
-			(at 190.5 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "XXXXXX"
-			(at 190.5 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d6442b1-9daa-4732-9644-0ff855f0d56e")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/d2226d13-9ee7-410c-817d-a66f223af34c"
-					(reference "TP302")
 					(unit 1)
 				)
 			)
