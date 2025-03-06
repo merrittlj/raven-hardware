@@ -302,126 +302,6 @@
 				)
 			)
 		)
-		(symbol "Raven:REGV"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "REGV"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"REGV\"(Regulated Voltage)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "REGV_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "REGV_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -1052,12 +932,6 @@
 			)
 		)
 	)
-	(junction
-		(at 125.73 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5598f4b-53cb-4edd-a463-47578e07e853")
-	)
 	(wire
 		(pts
 			(xy 195.58 38.1) (xy 191.77 38.1)
@@ -1170,7 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 179.07) (xy 125.73 179.07)
+			(xy 123.19 179.07) (xy 132.08 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1597,16 +1471,6 @@
 			(type default)
 		)
 		(uuid "99da2559-92a4-4edc-9a68-d4c3d01d599a")
-	)
-	(wire
-		(pts
-			(xy 125.73 179.07) (xy 132.08 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc32cfe-06eb-4ba7-9816-51bcc1b29056")
 	)
 	(wire
 		(pts
@@ -2737,72 +2601,6 @@
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02"
 					(reference "SW101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Raven:REGV")
-		(at 125.73 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5c65be5-43bb-453e-89fe-da00f4c3b7c1")
-		(property "Reference" "#PWR0107"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "REGV"
-			(at 125.73 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"REGV\"(Regulated Voltage)"
-			(at 125.73 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c607b346-7a2d-4429-9ffe-5d81db7d7fe5")
-		)
-		(instances
-			(project "kicad"
-				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
