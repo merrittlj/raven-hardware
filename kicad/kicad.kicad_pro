@@ -66,7 +66,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -100,7 +100,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "ignore",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
@@ -129,7 +129,7 @@
         "min_through_hole_diameter": 0.1,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.25,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -220,7 +220,7 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.3
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
