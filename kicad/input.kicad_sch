@@ -6,12 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Input Module")
-		(date "2025-02-03")
+		(date "2025-05-08")
 		(rev "2")
 		(company "Mosaic Labs")
 		(comment 1 "Lucas Merritt")
-		(comment 2 "Rev. 2 verified")
-		(comment 3 "Final ready")
+		(comment 2 "ACTIVE HIGH")
 	)
 	(lib_symbols
 		(symbol "Device:R"
@@ -377,49 +376,9 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 138.43 114.3) (xy 138.43 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27b1f90d-3a02-479b-9492-9813a8ec8b14")
-	)
-	(wire
-		(pts
-			(xy 166.37 114.3) (xy 166.37 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "393aba31-11b1-43b5-9948-c0bb9d8f566b")
-	)
-	(wire
-		(pts
-			(xy 138.43 87.63) (xy 138.43 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ea87c4-63ee-4bcf-a86f-8e8ee5964894")
-	)
-	(wire
-		(pts
-			(xy 166.37 87.63) (xy 166.37 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0327a22-612c-4aa8-8e62-4fc5b4d62db8")
-	)
 	(hierarchical_label "PULL_UP"
 		(shape input)
-		(at 166.37 80.01 90)
+		(at 156.21 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -443,7 +402,7 @@
 	)
 	(hierarchical_label "PULL_UP"
 		(shape input)
-		(at 166.37 106.68 90)
+		(at 156.21 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -455,7 +414,7 @@
 	)
 	(hierarchical_label "PULL_UP"
 		(shape input)
-		(at 138.43 106.68 90)
+		(at 128.27 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -479,7 +438,7 @@
 	)
 	(hierarchical_label "PULL_UP"
 		(shape input)
-		(at 138.43 80.01 90)
+		(at 128.27 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -515,7 +474,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 110.49 0)
+		(at 166.37 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -524,7 +483,7 @@
 		(fields_autoplaced yes)
 		(uuid "3af2e0c7-eaa7-4237-b9f4-c61c8166f32c")
 		(property "Reference" "R604"
-			(at 168.91 109.2199 0)
+			(at 168.91 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -533,7 +492,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 168.91 111.7599 0)
+			(at 168.91 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +501,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 164.592 110.49 90)
+			(at 164.592 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 110.49 0)
+			(at 166.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +519,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 110.49 0)
+			(at 166.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -569,7 +528,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 166.37 110.49 0)
+			(at 166.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +553,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 83.82 0)
+		(at 138.43 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -603,7 +562,7 @@
 		(fields_autoplaced yes)
 		(uuid "689f46ad-16f5-4d10-acbe-ce5be28e2f4b")
 		(property "Reference" "R601"
-			(at 140.97 82.5499 0)
+			(at 140.97 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +571,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 140.97 85.0899 0)
+			(at 140.97 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,7 +580,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 136.652 83.82 90)
+			(at 136.652 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -630,7 +589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 83.82 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -639,7 +598,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 83.82 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,7 +607,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 138.43 83.82 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +632,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 115.57 0)
+		(at 138.43 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -682,7 +641,7 @@
 		(fields_autoplaced yes)
 		(uuid "83bc313b-b945-48ab-bc6c-4e7e7448e10c")
 		(property "Reference" "#PWR0602"
-			(at 128.27 121.92 0)
+			(at 138.43 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,7 +650,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 120.65 0)
+			(at 138.43 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 115.57 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,7 +668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 115.57 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 115.57 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +785,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 83.82 0)
+		(at 166.37 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -835,7 +794,7 @@
 		(fields_autoplaced yes)
 		(uuid "a79012ad-4399-4ae7-99e1-63cfda03387a")
 		(property "Reference" "R603"
-			(at 168.91 82.5499 0)
+			(at 168.91 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +803,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 168.91 85.0899 0)
+			(at 168.91 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +812,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 164.592 83.82 90)
+			(at 164.592 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 83.82 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +830,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 83.82 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +839,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 166.37 83.82 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,7 +864,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 88.9 0)
+		(at 166.37 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -914,7 +873,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa5f5ad1-5280-48b0-8e4b-ba9cd84d5f99")
 		(property "Reference" "#PWR0603"
-			(at 156.21 95.25 0)
+			(at 166.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +882,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 93.98 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 88.9 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,7 +900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 88.9 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 88.9 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +1017,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 110.49 0)
+		(at 138.43 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1067,7 +1026,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8b5b15e-6a80-471d-8f4a-13d1f0452222")
 		(property "Reference" "R602"
-			(at 140.97 109.2199 0)
+			(at 140.97 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1035,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 140.97 111.7599 0)
+			(at 140.97 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1044,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 136.652 110.49 90)
+			(at 136.652 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1053,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 110.49 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1062,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 110.49 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1071,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 138.43 110.49 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +1096,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 88.9 0)
+		(at 138.43 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1146,7 +1105,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2df1102-61bc-44e7-b466-85600e51d544")
 		(property "Reference" "#PWR0601"
-			(at 128.27 95.25 0)
+			(at 138.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1114,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 93.98 0)
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 88.9 0)
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,7 +1132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 88.9 0)
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1141,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 88.9 0)
+			(at 138.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,7 +1249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 115.57 0)
+		(at 166.37 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1299,7 +1258,7 @@
 		(fields_autoplaced yes)
 		(uuid "f28f6dd6-bc66-407a-8b9a-6d91dde09111")
 		(property "Reference" "#PWR0604"
-			(at 156.21 121.92 0)
+			(at 166.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 120.65 0)
+			(at 166.37 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 115.57 0)
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 115.57 0)
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1294,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 115.57 0)
+			(at 166.37 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

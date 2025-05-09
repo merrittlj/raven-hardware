@@ -10,8 +10,6 @@
 		(rev "1")
 		(company "Mosaic Labs")
 		(comment 1 "Lucas Merritt")
-		(comment 2 "Rev. 1 verified")
-		(comment 3 "Final ready")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"

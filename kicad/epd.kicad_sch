@@ -6,12 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "E-Paper Display Module")
-		(date "2025-01-27")
+		(date "2025-05-08")
 		(rev "2")
 		(company "Mosaic Labs")
 		(comment 1 "Lucas Merritt")
-		(comment 2 "Rev. 2 verified")
-		(comment 3 "Final ready")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1780,6 +1778,12 @@
 		)
 	)
 	(junction
+		(at 139.7 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "029c1738-2ff7-4953-a794-3e7c1050a9ab")
+	)
+	(junction
 		(at 191.77 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1832,6 +1836,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2b97281-83ec-43b3-b75d-746bc1dd867a")
+	)
+	(junction
+		(at 116.84 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df7b1269-661a-4a33-987d-fa81b87f895f")
 	)
 	(junction
 		(at 132.08 53.34)
@@ -2101,6 +2111,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 71.12) (xy 111.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffa5702-02ce-432d-91ca-4fb61bcb172c")
+	)
+	(wire
+		(pts
 			(xy 116.84 69.85) (xy 132.08 69.85)
 		)
 		(stroke
@@ -2171,6 +2191,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83f134e-9254-4fa2-bb0f-9e22a3e57c9e")
+	)
+	(wire
+		(pts
 			(xy 191.77 88.9) (xy 191.77 90.17)
 		)
 		(stroke
@@ -2188,6 +2218,16 @@
 			(type default)
 		)
 		(uuid "cbb44b1f-da1e-44a2-9c5f-24d20c91f552")
+	)
+	(wire
+		(pts
+			(xy 135.89 71.12) (xy 135.89 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6d25d0-cc23-44ab-8e61-4ccf1c6eb126")
 	)
 	(wire
 		(pts
@@ -2218,6 +2258,16 @@
 			(type default)
 		)
 		(uuid "e23712b0-8327-412a-bad8-adae3a88c85a")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2532f24-4c3d-492b-807a-79573b826dea")
 	)
 	(wire
 		(pts
@@ -2299,6 +2349,17 @@
 		)
 		(uuid "d2aa56ee-f75b-4773-8bb3-8e29b434477b")
 	)
+	(label "PREVGL"
+		(at 135.89 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "133c52dc-00f7-4605-8e60-808b190f1296")
+	)
 	(label "PREVGH"
 		(at 182.88 102.87 0)
 		(fields_autoplaced yes)
@@ -2353,6 +2414,17 @@
 			(justify left bottom)
 		)
 		(uuid "d5ed2170-5e7e-4e24-823b-91fccf3e0e7e")
+	)
+	(label "PREVGH"
+		(at 111.76 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d917f87d-b5c7-4459-b600-575e4352471e")
 	)
 	(label "RESE"
 		(at 180.34 57.15 0)
@@ -2505,10 +2577,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07fbb7f5-b2a7-4e9b-963d-456fe796d63f")
 		(property "Reference" "Q401"
-			(at 100.33 62.2299 0)
+			(at 99.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2588,7 @@
 			)
 		)
 		(property "Value" "Si1308EDL"
-			(at 100.33 64.7699 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

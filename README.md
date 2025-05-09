@@ -5,7 +5,7 @@
 </h1>
 <p align="center">
     <img src="https://img.shields.io/static/v1?label=release-version&message=2.0.0&color=green">
-    <img src="https://img.shields.io/static/v1?label=build-version&message=2.0.1&color=orange">
+    <img src="https://img.shields.io/static/v1?label=build-version&message=2.0.2&color=orange">
     <img src="https://img.shields.io/static/v1?label=EDA&message=KiCad&color=blue">
 </p>
 <p align="center"></p>
