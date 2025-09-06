@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7afec3bb-b3b6-4af3-81b5-a5130ca026ac")
 	(paper "A4")
 	(title_block
@@ -14,7 +14,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -133,11 +135,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -218,10 +225,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -230,9 +236,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -278,12 +285,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -374,12 +386,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(hierarchical_label "PULL_UP"
 		(shape input)
 		(at 156.21 88.9 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -391,7 +403,6 @@
 	(hierarchical_label "BT1"
 		(shape output)
 		(at 138.43 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -403,7 +414,6 @@
 	(hierarchical_label "PULL_UP"
 		(shape input)
 		(at 156.21 115.57 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -415,7 +425,6 @@
 	(hierarchical_label "PULL_UP"
 		(shape input)
 		(at 128.27 115.57 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -427,7 +436,6 @@
 	(hierarchical_label "BT2"
 		(shape output)
 		(at 166.37 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -439,7 +447,6 @@
 	(hierarchical_label "PULL_UP"
 		(shape input)
 		(at 128.27 88.9 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -451,7 +458,6 @@
 	(hierarchical_label "BT3"
 		(shape output)
 		(at 138.43 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -463,7 +469,6 @@
 	(hierarchical_label "BT4"
 		(shape output)
 		(at 166.37 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -482,7 +487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af2e0c7-eaa7-4237-b9f4-c61c8166f32c")
-		(property "Reference" "R604"
+		(property "Reference" "R504"
 			(at 168.91 118.1099 0)
 			(effects
 				(font
@@ -545,7 +550,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "R604")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -561,7 +566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "689f46ad-16f5-4d10-acbe-ce5be28e2f4b")
-		(property "Reference" "R601"
+		(property "Reference" "R501"
 			(at 140.97 91.4399 0)
 			(effects
 				(font
@@ -624,7 +629,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "R601")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -640,7 +645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83bc313b-b945-48ab-bc6c-4e7e7448e10c")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR0503"
 			(at 138.43 129.54 0)
 			(effects
 				(font
@@ -691,7 +696,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "#PWR0602")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -707,7 +712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a52043-36b4-4937-8484-e9c9dcb074fa")
-		(property "Reference" "SW601"
+		(property "Reference" "SW501"
 			(at 133.35 81.28 0)
 			(effects
 				(font
@@ -777,7 +782,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW601")
+					(reference "SW501")
 					(unit 1)
 				)
 			)
@@ -793,7 +798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a79012ad-4399-4ae7-99e1-63cfda03387a")
-		(property "Reference" "R603"
+		(property "Reference" "R502"
 			(at 168.91 91.4399 0)
 			(effects
 				(font
@@ -856,7 +861,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "R603")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -872,7 +877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa5f5ad1-5280-48b0-8e4b-ba9cd84d5f99")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0502"
 			(at 166.37 102.87 0)
 			(effects
 				(font
@@ -923,7 +928,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "#PWR0603")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -939,7 +944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b63e06e0-6603-40e2-b852-184983ad03a8")
-		(property "Reference" "SW602"
+		(property "Reference" "SW503"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -1009,7 +1014,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW602")
+					(reference "SW503")
 					(unit 1)
 				)
 			)
@@ -1025,7 +1030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b5b15e-6a80-471d-8f4a-13d1f0452222")
-		(property "Reference" "R602"
+		(property "Reference" "R503"
 			(at 140.97 118.1099 0)
 			(effects
 				(font
@@ -1088,7 +1093,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "R602")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -1104,7 +1109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2df1102-61bc-44e7-b466-85600e51d544")
-		(property "Reference" "#PWR0601"
+		(property "Reference" "#PWR0501"
 			(at 138.43 102.87 0)
 			(effects
 				(font
@@ -1155,7 +1160,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "#PWR0601")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -1171,7 +1176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edd92391-ad4a-40c0-911a-5b0fe53ec912")
-		(property "Reference" "SW603"
+		(property "Reference" "SW502"
 			(at 161.29 81.28 0)
 			(effects
 				(font
@@ -1241,7 +1246,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW603")
+					(reference "SW502")
 					(unit 1)
 				)
 			)
@@ -1257,7 +1262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f28f6dd6-bc66-407a-8b9a-6d91dde09111")
-		(property "Reference" "#PWR0604"
+		(property "Reference" "#PWR0504"
 			(at 166.37 129.54 0)
 			(effects
 				(font
@@ -1308,7 +1313,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "#PWR0604")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -1324,7 +1329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d01843-819a-4872-8c6a-fd4d2f2fc643")
-		(property "Reference" "SW604"
+		(property "Reference" "SW504"
 			(at 161.29 107.95 0)
 			(effects
 				(font
@@ -1394,7 +1399,7 @@
 		(instances
 			(project "kicad"
 				(path "/97e37379-fec6-4f0d-82d9-4ea53516bb02/61a1381c-fa91-4acb-8bba-0cebc11eb34a"
-					(reference "SW604")
+					(reference "SW504")
 					(unit 1)
 				)
 			)
