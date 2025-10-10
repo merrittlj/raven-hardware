@@ -6,17 +6,19 @@ pcb_width = 31.8
 pcb_height = 37.32
 
 side_padding = 0.55 + 0.25
-bottom_side_padding = 3
+bottom_side_padding = 2
 width = pcb_width + 2 * side_padding
 height = pcb_height + 2 * side_padding + bottom_side_padding
 
+# extend holder end thickness
+# slightly higher height/holder extended downward
+# buttons/power switch caps
+
 # measurements from display mechanical drawing
-bezel_padding = 0.5
-bezel_padding_bottom = 0.35
-bezel_top = 2.40 - bezel_padding
-bezel_left = 2.40 - bezel_padding
-bezel_right = 2.40 - bezel_padding
-bezel_bottom = 37.32 - 27 - 2.40 - bezel_padding_bottom # 7.92
+bezel_top = 2.40 - 0.5
+bezel_left = 2.40 - 0.55
+bezel_right = 2.40 - 0.55
+bezel_bottom = 37.32 - 27 - 2.40 - 0.45
 # from case top downwards
 bezel_thickness = 1.2
 
@@ -43,6 +45,7 @@ power_height = 1.6
 power_center_offset = -3.663
 
 # for the strap "holder"
+# ideally for ~20-21mm nato strap
 holder_width = width - 4 
 holder_base = 6
 holder_height = 5
