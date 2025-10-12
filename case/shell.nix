@@ -1,18 +1,21 @@
-{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-25.05") {} }:
+{ pkgs ? import <nixpkgs> { } }:
 
-pkgs.mkShellNoCC {
-  packages = with pkgs; [
+pkgs.mkShell rec {
+  buildInputs = with pkgs; [
     python3
     python3Packages.pip
-
-    openscad
+    zlib
+    libGl
   ];
 
   shellHook = ''
+    export LD_LIBRARY_PATH="${pkgs.lib.makeLibraryPath buildInputs}:$LD_LIBRARY_PATH"
+    export LD_LIBRARY_PATH="${pkgs.stdenv.cc.cc.lib.outPath}/lib:$LD_LIBRARY_PATH"
+
     python -m venv .venv
     source .venv/bin/activate
 
-    pip install solidpython2
+    pip install build123d numpy
   '';
 }
 
