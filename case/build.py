@@ -44,7 +44,7 @@ power_center_offset = -3.663
 # for the strap "holder"
 # ideally for ~20-21mm nato strap
 holder_width = width - 4 
-holder_base = 6
+holder_base = 10 # 6
 holder_height = 5
 holder_inside_base = holder_base - 3
 holder_inside_width = holder_width - 6 
@@ -97,14 +97,19 @@ wall -= wall_hole(wall, "right", button_width, button_height, -button_center_off
 
 wall -= wall_hole(wall, "right", power_width, power_height, power_center_offset, component_level)
 
-# holder_shape = Polygon((0, 0), (holder_base, 0), (0, holder_height))
-holder_shape = Triangle(a=holder_base, c=holder_height, B=90)
-holder = extrude(holder_shape, holder_width)
-bf = holder.faces().filter_by(Axis.Y)[0]
-holder_inside_shape = Plane(bf) * Pos(X=-holder_inside_outside) * Rectangle(holder_inside_base, holder_inside_width, align=(Align.MIN, Align.CENTER))
-holder -= extrude(holder_inside_shape, -holder_height)
 topf = wall.faces().filter_by(Axis.Y).sort_by(Axis.Y)[-1]
-holder = Plane(topf, z_dir=topf.normal_at()) * holder
+tope = topf.edges().filter_by(GeomType.LINE).sort_by(Axis.Y)[-1]
+
+# holder_shape = Plane(tope @ 0.5, x_dir=(0, 1, 0), y_dir=(0, 0, 1)) * Polygon((0, 0), (holder_base, 0), (0, holder_height))
+# holder_shape = Plane.YZ * Rot(0, -180, 0) * Polygon((0, 0), (holder_base, 0), (0, holder_height))
+holder_shape = Plane.XY * Rot(90, -90, 180) * Polygon((0, 0), (holder_base, 0), (0, holder_height))
+holder = extrude(holder_shape, holder_width)
+holder_shape1 = Plane.XY * Rot(90, -90+180, 180) * Polygon((0, 0), (holder_base, 0), (0, holder_height))
+holder1 = extrude(holder_shape1, holder_width)
+# bf = holder.faces().filter_by(Axis.Y)[0]
+# holder_inside_shape = Plane(bf) * Pos(X=-holder_inside_outside) * Rectangle(holder_inside_base, holder_inside_width, align=(Align.MIN, Align.CENTER))
+# holder -= extrude(holder_inside_shape, -holder_height)
+
 # top_holder_shape = right_triangle([holder_base, holder_height], center=True)
 # top_holder_inside_shape = right_triangle([holder_inside_base, holder_inside_height], center=True).translateY(holder_inside_extra)
 # top_holder = top_holder_shape.linear_extrude(holder_width, center=True)
@@ -117,7 +122,8 @@ holder = Plane(topf, z_dir=topf.normal_at()) * holder
 # bottom_holder = bottom_holder - bottom_holder_inside_shape.linear_extrude(holder_inside_width, center=True)
 # bottom_holder = bottom_holder.rotate([-90, 0, -90]).translate([0, -height / 2 - wall_thickness * 2 - bottom_side_padding, thickness - holder_height / 2])
 
-model = bezel + holder
+# model = bezel + wall + holder
+model = bezel + holder + holder1
 export_stl(model, "build.stl")
 
 print(f"Time: {timeit.default_timer() - start_time:0.3f}s")
