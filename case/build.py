@@ -23,8 +23,8 @@ bezel_bottom = 37.32 - 27 - 2.40 - 0.45
 bezel_thickness = 1.2
 
 # add extra space around holes
-hole_width_padding = 1
-hole_height_padding = 1
+hole_width_padding = 0.5
+hole_height_padding = 0.5
 
 # from product drawings
 usb_width = 8.94
@@ -72,12 +72,29 @@ component_level = bezel_thickness + epd_thickness + pcb_thickness
 # from outside of bezel to case edge
 wall_thickness = 1.2
 
+catch_extra_width = 2
+catch_extra_height = 2
+
+button_cap_inside = 1
+button_cap_reach = 3
+button_cap_clearance = 0.15
+
+power_cap_inside = 1
+power_cap_reach = 3
+power_cap_clearance = 1
+
+bottom_thickness = 1
+bottom_inside_thickness = 1
+
 print(f"lug to lug: {height + wall_thickness * 2 + holder_base * 2}")
-print(f"thickness: {thickness}")
+print(f"thickness: {thickness + bottom_thickness}")
 print(f"width: {width + wall_thickness * 2}")
 print(f"height: {height + wall_thickness * 2}")
 
-def wall_hole(walls, side, hole_width, hole_height, center_offset, level):
+def topf(obj):
+    return obj.faces().sort_by(Axis.Z)[-1]
+
+def wall_hole(walls, side, hole_width, hole_height, center_offset, level=component_level):
     f = {
         "left": lambda: walls.faces().sort_by(Axis.X)[0],
         "right": lambda: walls.faces().sort_by(Axis.X)[-1],
@@ -88,6 +105,13 @@ def wall_hole(walls, side, hole_width, hole_height, center_offset, level):
     y_offset = -level + hole_height_padding if side == "left" else level - hole_height_padding
     hole = Rectangle(hole_width + hole_width_padding * 2, hole_height + hole_height_padding * 2, align=hole_align)
     return extrude(p * Pos(center_offset, y_offset, 0) * hole, -wall_thickness)
+
+def button_cap(hole_width, hole_height, inside_thickness, outside_reach, hole_clearance):
+    real_width = hole_width + hole_width_padding * 2
+    real_height = hole_height + hole_height_padding * 2
+    catch = extrude(Rectangle(real_width + catch_extra_width, real_height + catch_extra_height), inside_thickness)
+    reach = Plane(topf(catch)) * extrude(Rectangle(real_width - hole_clearance, real_height - hole_clearance), outside_reach)
+    return catch + reach
 
 def extrude(shape, dir, center=False):
     if center:
@@ -110,7 +134,7 @@ def holder(walls, side):
     holder_plane_x = Axis(origin=(0, 0, 0), direction=holder_plane.x_dir)
     holder_shape = holder_plane * Polygon(*[(0, 0), (holder_base, -holder_drop), (0, holder_height)], align=(Align.MIN, Align.MIN))
     tip = holder_shape.vertices().sort_by(holder_plane_x)[-1]
-    holder_shape = fillet(tip, radius=.25)
+    holder_shape = fillet(tip, radius=0.5)
     holder = extrude(holder_shape, holder_width, center=True)
 
     holder_shape_flat = holder_plane * Polygon(*[(0, 0), (holder_base, 0), (0, holder_height)], align=(Align.MIN, Align.MIN))
@@ -130,25 +154,38 @@ bezel_inner = Rectangle(
     align=(Align.CENTER, Align.MAX)
 )
 tope = base.edges().filter_by(GeomType.LINE).sort_by(Axis.Y)[-1]
-bezel_shape = fillet(base.vertices(), 4)
-walls_shape = offset(bezel_shape, wall_thickness) - bezel_shape
-bezel_shape -= fillet((Location(tope @ 0.5) * Pos(Y=-bezel_top) * bezel_inner).vertices(), 2)
+rounded_base = fillet(base.vertices(), 3)
+bezel_shape = rounded_base - fillet((Location(tope @ 0.5) * Pos(Y=-bezel_top) * bezel_inner).vertices(), 2)
 bezel = extrude(bezel_shape, bezel_thickness)
 
-walls = extrude(walls_shape, thickness)
+walls_shape = offset(rounded_base, wall_thickness)
+walls = extrude(walls_shape - rounded_base, thickness)
 
-walls -= wall_hole(walls, "left", usb_width, usb_height, usb_center_offset, component_level)
+walls -= wall_hole(walls, "left", usb_width, usb_height, usb_center_offset)
 
-walls -= wall_hole(walls, "left", button_width, button_height, button_center_offset, component_level)
-walls -= wall_hole(walls, "right", button_width, button_height, button_center_offset, component_level)
-walls -= wall_hole(walls, "left", button_width, button_height, -button_center_offset, component_level)
-walls -= wall_hole(walls, "right", button_width, button_height, -button_center_offset, component_level)
+walls -= wall_hole(walls, "left", button_width, button_height, button_center_offset)
+walls -= wall_hole(walls, "right", button_width, button_height, button_center_offset)
+walls -= wall_hole(walls, "left", button_width, button_height, -button_center_offset)
+walls -= wall_hole(walls, "right", button_width, button_height, -button_center_offset)
 
-walls -= wall_hole(walls, "right", power_width, power_height, power_center_offset, component_level)
+walls -= wall_hole(walls, "right", power_width, power_height, power_center_offset)
+
+re = Plane(walls_shape.edges().sort_by(Axis.X)[-1] @ 0.5)
+
+caps = Compound([
+    loc * button_cap(button_width, button_height, button_cap_inside, button_cap_reach, button_cap_clearance)
+    for loc in GridLocations(button_width * 3, button_height * 5, 2, 2)
+])
+caps += Pos(Y=button_height * 8) * button_cap(power_width, power_height, power_cap_inside, power_cap_reach, power_cap_clearance)
+caps = re * Pos(X=30) * caps
+
+bottom_base = extrude(walls_shape, bottom_thickness)
+inside = Plane(topf(bottom_base)) * extrude(offset(rounded_base, -2), bottom_inside_thickness)
+bottom = Compound([re * Pos(X=75) * (bottom_base + inside)])
 
 top_holder = holder(walls, "top")
 bottom_holder = holder(walls, "bottom")
 holders = Compound(top_holder + bottom_holder)
 
-model = bezel + walls + holders
+model = Compound(bezel + walls + holders + caps + bottom)
 export_stl(model, "build.stl")
