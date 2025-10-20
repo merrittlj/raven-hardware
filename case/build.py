@@ -9,7 +9,9 @@ start_time = timeit.default_timer()
 pcb_width = 31.80
 pcb_height = 37.32
 
-side_padding = 0.80
+button_cap_inside = 0.3
+
+side_padding = 0.80 + button_cap_inside
 bottom_side_padding = 2
 width = pcb_width + 2 * side_padding
 height = pcb_height + 2 * side_padding + bottom_side_padding
@@ -20,7 +22,7 @@ bezel_left = 2.40 - 0.55
 bezel_right = 2.40 - 0.55
 bezel_bottom = 37.32 - 27 - 2.40 - 0.45
 # from case top downwards
-bezel_thickness = 1.2
+bezel_thickness = 0.75
 
 # add extra space around holes
 hole_width_padding = 0.5
@@ -51,7 +53,7 @@ epd_thickness = 1.05
 thickness = battery_thickness + usb_height + pcb_thickness + epd_thickness + bezel_thickness
 
 # for the nato strap "holder"
-# ideally ~20mm lug width
+# ideally ~18mm lug width
 # 26 mm strap length(?)
 lug_width = 18
 
@@ -70,21 +72,20 @@ assert holder_inside_base < holder_base
 component_level = bezel_thickness + epd_thickness + pcb_thickness
 
 # from outside of bezel to case edge
-wall_thickness = 1.2
+wall_thickness = 0.75
 
 catch_extra_width = 2
 catch_extra_height = 2
 
-button_cap_inside = 1
-button_cap_reach = 3
-button_cap_clearance = 0.15
+button_cap_reach = 1
+button_cap_clearance = 0.1
 
 power_cap_inside = 1
-power_cap_reach = 3
-power_cap_clearance = 1
+power_cap_reach = 1
+power_cap_clearance = 0.1
 
-bottom_thickness = 1
-bottom_inside_thickness = 1
+bottom_thickness = 0.5
+bottom_inside_thickness = 0.4
 
 print(f"lug to lug: {height + wall_thickness * 2 + holder_base * 2}")
 print(f"thickness: {thickness + bottom_thickness}")
@@ -176,7 +177,7 @@ caps = Compound([
     loc * button_cap(button_width, button_height, button_cap_inside, button_cap_reach, button_cap_clearance)
     for loc in GridLocations(button_width * 3, button_height * 5, 2, 2)
 ])
-caps += Pos(Y=button_height * 8) * button_cap(power_width, power_height, power_cap_inside, power_cap_reach, power_cap_clearance)
+# caps += Pos(Y=button_height * 8) * button_cap(power_width, power_height, power_cap_inside, power_cap_reach, power_cap_clearance)
 caps = re * Pos(X=30) * caps
 
 bottom_base = extrude(walls_shape, bottom_thickness)
