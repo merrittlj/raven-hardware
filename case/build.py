@@ -9,24 +9,24 @@ start_time = timeit.default_timer()
 pcb_width = 31.80
 pcb_height = 37.32
 
-button_cap_inside = 0.3
+button_cap_inside = 1.5
 
-side_padding = 0.80 + button_cap_inside
-bottom_side_padding = 2
+side_padding = 0.5 + button_cap_inside
+bottom_side_padding = 0.5
 width = pcb_width + 2 * side_padding
 height = pcb_height + 2 * side_padding + bottom_side_padding
 
 # measurements from display mechanical drawing
-bezel_top = 2.40 - 0.5
-bezel_left = 2.40 - 0.55
-bezel_right = 2.40 - 0.55
-bezel_bottom = 37.32 - 27 - 2.40 - 0.45
+bezel_top = 2.40 - 1.2
+bezel_left = 2.40 - 1.3
+bezel_right = 2.40 - 1.3
+bezel_bottom = 37.32 - 27 - 2.40 - 1.3
 # from case top downwards
-bezel_thickness = 0.75
+bezel_thickness = 1.2
 
 # add extra space around holes
-hole_width_padding = 0.5
-hole_height_padding = 0.5
+hole_width_padding = 1
+hole_height_padding = 1
 
 # from product drawings
 usb_width = 8.94
@@ -46,7 +46,7 @@ power_height = 1.6
 power_center_offset = -3.663
 
 # thickness: battery + usb + pcb + epd + bezel
-battery_thickness = 3
+battery_thickness = 3.25
 pcb_thickness = 1.6
 epd_thickness = 1.05
 # eg. total wall height
@@ -60,7 +60,7 @@ lug_width = 18
 holder_width = width - 8 
 holder_height = thickness * 0.4
 holder_inside_width = lug_width + 0.2 
-holder_inside_outside = 2
+holder_inside_outside = 3
 holder_inside_base = 3
 holder_base = holder_inside_base + holder_inside_outside
 holder_drop = 3
@@ -72,25 +72,28 @@ assert holder_inside_base < holder_base
 component_level = bezel_thickness + epd_thickness + pcb_thickness
 
 # from outside of bezel to case edge
-wall_thickness = 0.75
+wall_thickness = 1.5
 
 catch_extra_width = 2
 catch_extra_height = 2
 
-button_cap_reach = 1
-button_cap_clearance = 0.1
+button_cap_reach = 2.5
+button_cap_clearance = 1
 
-power_cap_inside = 1
-power_cap_reach = 1
-power_cap_clearance = 0.1
+# power_cap_inside = 1
+# power_cap_reach = 1
+# power_cap_clearance = 0.1
 
-bottom_thickness = 0.5
-bottom_inside_thickness = 0.4
+bottom_thickness = 1
+bottom_inside_thickness = 1
 
 print(f"lug to lug: {height + wall_thickness * 2 + holder_base * 2}")
 print(f"thickness: {thickness + bottom_thickness}")
 print(f"width: {width + wall_thickness * 2}")
 print(f"height: {height + wall_thickness * 2}")
+print(f"space bezel->component: {component_level - bezel_thickness}")
+
+assert catch_extra_height < component_level - bezel_thickness
 
 def topf(obj):
     return obj.faces().sort_by(Axis.Z)[-1]
@@ -110,7 +113,7 @@ def wall_hole(walls, side, hole_width, hole_height, center_offset, level=compone
 def button_cap(hole_width, hole_height, inside_thickness, outside_reach, hole_clearance):
     real_width = hole_width + hole_width_padding * 2
     real_height = hole_height + hole_height_padding * 2
-    catch = extrude(Rectangle(real_width + catch_extra_width, real_height + catch_extra_height), inside_thickness)
+    catch = extrude(Rectangle(real_width + catch_extra_width * 2, real_height + catch_extra_height * 2), inside_thickness)
     reach = Plane(topf(catch)) * extrude(Rectangle(real_width - hole_clearance, real_height - hole_clearance), outside_reach)
     return catch + reach
 
@@ -155,12 +158,14 @@ bezel_inner = Rectangle(
     align=(Align.CENTER, Align.MAX)
 )
 tope = base.edges().filter_by(GeomType.LINE).sort_by(Axis.Y)[-1]
-rounded_base = fillet(base.vertices(), 3)
+# rounded_base = fillet(base.vertices(), 3)
+rounded_base = base
 bezel_shape = rounded_base - fillet((Location(tope @ 0.5) * Pos(Y=-bezel_top) * bezel_inner).vertices(), 2)
 bezel = extrude(bezel_shape, bezel_thickness)
 
-walls_shape = offset(rounded_base, wall_thickness)
-walls = extrude(walls_shape - rounded_base, thickness)
+walls_shape = offset(fillet(base.vertices(), 3), wall_thickness)
+walls = extrude(walls_shape - base, thickness)
+# walls = fillet(walls.edges().filter_by(Axis.Z), 3)
 
 walls -= wall_hole(walls, "left", usb_width, usb_height, usb_center_offset)
 
@@ -175,13 +180,13 @@ re = Plane(walls_shape.edges().sort_by(Axis.X)[-1] @ 0.5)
 
 caps = Compound([
     loc * button_cap(button_width, button_height, button_cap_inside, button_cap_reach, button_cap_clearance)
-    for loc in GridLocations(button_width * 3, button_height * 5, 2, 2)
+    for loc in GridLocations(20, 20, 2, 2)
 ])
 # caps += Pos(Y=button_height * 8) * button_cap(power_width, power_height, power_cap_inside, power_cap_reach, power_cap_clearance)
 caps = re * Pos(X=30) * caps
 
 bottom_base = extrude(walls_shape, bottom_thickness)
-inside = Plane(topf(bottom_base)) * extrude(offset(rounded_base, -2), bottom_inside_thickness)
+inside = Plane(topf(bottom_base)) * extrude(offset(rounded_base, -0.1), bottom_inside_thickness)
 bottom = Compound([re * Pos(X=75) * (bottom_base + inside)])
 
 top_holder = holder(walls, "top")
