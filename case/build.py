@@ -11,10 +11,10 @@ pcb_height = 37.32
 
 button_cap_inside = 1
 
-side_padding = 2 + button_cap_inside
-bottom_side_padding = 0.5
-width = pcb_width + 2 * side_padding
-height = pcb_height + 2 * side_padding + bottom_side_padding
+lr_padding = 0.5 + button_cap_inside
+tb_padding = 0.2
+width = pcb_width + 2 * lr_padding
+height = pcb_height + 2 * tb_padding
 
 # measurements from display mechanical drawing
 bezel_top = 2.40 - 1.2
@@ -27,6 +27,11 @@ bezel_thickness = 1.2
 # add extra space around holes
 hole_width_padding = 1
 hole_height_padding = 1
+
+usb_extra_hole_width_padding = 1
+usb_extra_hole_height_padding = 1
+power_extra_hole_width_padding = 1.5
+power_extra_hole_height_padding = 1.5
 
 # from product drawings
 usb_width = 8.94
@@ -46,7 +51,7 @@ power_height = 1.6
 power_center_offset = -3.663
 
 # thickness: battery + usb + pcb + epd + bezel
-battery_thickness = 4.25
+battery_thickness = 3
 pcb_thickness = 1.6
 epd_thickness = 1.05
 # eg. total wall height
@@ -168,14 +173,14 @@ walls_shape = offset(fillet(base.vertices(), 3), wall_thickness)
 walls = extrude(walls_shape - base, thickness)
 # walls = fillet(walls.edges().filter_by(Axis.Z), 3)
 
-walls -= wall_hole(walls, "left", usb_width, usb_height, usb_center_offset)
+walls -= wall_hole(walls, "left", usb_width + usb_extra_hole_width_padding, usb_height + usb_extra_hole_height_padding, usb_center_offset)
 
 walls -= wall_hole(walls, "left", button_width, button_height, button_center_offset)
 walls -= wall_hole(walls, "right", button_width, button_height, button_center_offset)
 walls -= wall_hole(walls, "left", button_width, button_height, -button_center_offset)
 walls -= wall_hole(walls, "right", button_width, button_height, -button_center_offset)
 
-walls -= wall_hole(walls, "right", power_width, power_height, power_center_offset)
+walls -= wall_hole(walls, "right", power_width + power_extra_hole_width_padding, power_height + power_extra_hole_height_padding, power_center_offset)
 
 re = Plane(walls_shape.edges().sort_by(Axis.X)[-1] @ 0.5)
 
@@ -194,6 +199,6 @@ top_holder = holder(walls, "top")
 bottom_holder = holder(walls, "bottom")
 holders = Compound(top_holder + bottom_holder)
 
-# model = Compound(bezel + walls + holders + caps + bottom)
-model = Compound(caps + bottom)
+model = Compound(bezel + walls + holders + caps + bottom)
+# model = (bezel + walls + holders)
 export_stl(model, "build.stl")
