@@ -11,10 +11,10 @@ pcb_height = 37.32
 
 button_cap_inside = 1
 
-lr_padding = 0.5 + button_cap_inside
-tb_padding = 0.2
+lr_padding = 1.25 + button_cap_inside
+tb_padding = 0.5
 width = pcb_width + 2 * lr_padding
-height = pcb_height + 2 * tb_padding
+height = pcb_height + 2 * tb_padding + 0.5
 
 # measurements from display mechanical drawing
 bezel_top = 2.40 - 1.2
@@ -199,6 +199,6 @@ top_holder = holder(walls, "top")
 bottom_holder = holder(walls, "bottom")
 holders = Compound(top_holder + bottom_holder)
 
-model = Compound(bezel + walls + holders + caps + bottom)
-# model = (bezel + walls + holders)
+# model = Compound(bezel + walls + holders + caps + bottom)
+model = (bezel + walls + holders)
 export_stl(model, "build.stl")
