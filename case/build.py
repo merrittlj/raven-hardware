@@ -9,9 +9,9 @@ start_time = timeit.default_timer()
 pcb_width = 31.80
 pcb_height = 37.32
 
-button_cap_inside = 1 + 1.5
+button_cap_inside = 1
 
-side_padding = 0.5 + button_cap_inside
+side_padding = 2 + button_cap_inside
 bottom_side_padding = 0.5
 width = pcb_width + 2 * side_padding
 height = pcb_height + 2 * side_padding + bottom_side_padding
@@ -78,7 +78,7 @@ catch_extra_width = 0.75
 catch_extra_height = 0.75
 
 button_cap_reach = 3
-button_cap_clearance = 0.25
+button_cap_clearance = 0.5
 
 # power_cap_inside = 1
 # power_cap_reach = 1
@@ -86,6 +86,7 @@ button_cap_clearance = 0.25
 
 bottom_thickness = 1
 bottom_inside_thickness = 0.7
+bottom_reduce = 0.2
 
 print(f"lug to lug: {height + wall_thickness * 2 + holder_base * 2}")
 print(f"thickness: {thickness + bottom_thickness}")
@@ -186,13 +187,13 @@ caps = Compound([
 caps = re * Pos(X=30) * caps
 
 bottom_base = extrude(walls_shape, bottom_thickness)
-inside = Plane(topf(bottom_base)) * extrude(offset(rounded_base, -0.1), bottom_inside_thickness)
+inside = Plane(topf(bottom_base)) * extrude(offset(rounded_base, -bottom_reduce), bottom_inside_thickness)
 bottom = Compound([re * Pos(X=75) * (bottom_base + inside)])
 
 top_holder = holder(walls, "top")
 bottom_holder = holder(walls, "bottom")
 holders = Compound(top_holder + bottom_holder)
 
-model = Compound(bezel + walls + holders + caps + bottom)
-# model = Compound(caps + bottom)
+# model = Compound(bezel + walls + holders + caps + bottom)
+model = Compound(caps + bottom)
 export_stl(model, "build.stl")
