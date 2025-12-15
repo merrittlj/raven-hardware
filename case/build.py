@@ -11,10 +11,10 @@ pcb_height = 37.32
 
 button_cap_inside = 1
 
-lr_padding = 1.25 + button_cap_inside
+lr_padding = 2.25 + button_cap_inside
 tb_padding = 0.5
 width = pcb_width + 2 * lr_padding
-height = pcb_height + 2 * tb_padding + 0.5
+height = pcb_height + 2 * tb_padding + 0.75
 
 # measurements from display mechanical drawing
 bezel_top = 2.40 - 1.2
