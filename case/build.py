@@ -11,7 +11,7 @@ pcb_height = 37.32
 
 button_cap_inside = 1
 
-lr_padding = 2.25 + button_cap_inside
+lr_padding = 1.75 + button_cap_inside
 tb_padding = 0.5
 width = pcb_width + 2 * lr_padding
 height = pcb_height + 2 * tb_padding + 0.75
@@ -25,13 +25,13 @@ bezel_bottom = 37.32 - 27 - 2.40 - 1.3
 bezel_thickness = 1.2
 
 # add extra space around holes
-hole_width_padding = 1
-hole_height_padding = 1
+button_hole_width_padding = 1
+button_hole_height_padding = 1
 
-usb_extra_hole_width_padding = 1
-usb_extra_hole_height_padding = 1
-power_extra_hole_width_padding = 1.5
-power_extra_hole_height_padding = 1.5
+usb_hole_width_padding = 2.5
+usb_hole_height_padding = 2.5
+power_hole_width_padding = 3
+power_hole_height_padding = 1.75
 
 # from product drawings
 usb_width = 8.94
@@ -51,7 +51,7 @@ power_height = 1.6
 power_center_offset = -3.663
 
 # thickness: battery + usb + pcb + epd + bezel
-battery_thickness = 3
+battery_thickness = 3.25
 pcb_thickness = 1.6
 epd_thickness = 1.05
 # eg. total wall height
@@ -65,8 +65,8 @@ lug_width = 18
 holder_width = width - 8 
 holder_height = thickness * 0.4
 holder_inside_width = lug_width + 0.2 
-holder_inside_outside = 3
-holder_inside_base = 3
+holder_inside_base = 1 + 0.25
+holder_inside_outside = holder_inside_base + 0.75
 holder_base = holder_inside_base + holder_inside_outside
 holder_drop = 3
 
@@ -104,7 +104,7 @@ assert catch_extra_height < component_level - bezel_thickness
 def topf(obj):
     return obj.faces().sort_by(Axis.Z)[-1]
 
-def wall_hole(walls, side, hole_width, hole_height, center_offset, level=component_level):
+def wall_hole(walls, side, hole_width, hole_height, width_padding, height_padding, center_offset, level=component_level):
     f = {
         "left": lambda: walls.faces().sort_by(Axis.X)[0],
         "right": lambda: walls.faces().sort_by(Axis.X)[-1],
@@ -112,13 +112,13 @@ def wall_hole(walls, side, hole_width, hole_height, center_offset, level=compone
     be = f.edges().sort_by(Axis.Z)[0]
     p = Plane(be @ 0.5, x_dir=be.tangent_at(0.5), z_dir=f.normal_at())
     hole_align = (Align.CENTER, Align.MAX) if side == "left" else (Align.CENTER, Align.MIN)
-    y_offset = -level + hole_height_padding if side == "left" else level - hole_height_padding
-    hole = Rectangle(hole_width + hole_width_padding * 2, hole_height + hole_height_padding * 2, align=hole_align)
+    y_offset = -level + height_padding if side == "left" else level - height_padding
+    hole = Rectangle(hole_width + width_padding * 2, hole_height + height_padding * 2, align=hole_align)
     return extrude(p * Pos(center_offset, y_offset, 0) * hole, -wall_thickness)
 
 def button_cap(hole_width, hole_height, inside_thickness, outside_reach, hole_clearance):
-    real_width = hole_width + hole_width_padding * 2
-    real_height = hole_height + hole_height_padding * 2
+    real_width = hole_width + button_hole_width_padding * 2
+    real_height = hole_height + button_hole_height_padding * 2
     catch = extrude(Rectangle(real_width + catch_extra_width * 2, real_height + catch_extra_height * 2), inside_thickness)
     reach = Plane(topf(catch)) * extrude(Rectangle(real_width - hole_clearance, real_height - hole_clearance), outside_reach)
     return catch + reach
@@ -173,14 +173,14 @@ walls_shape = offset(fillet(base.vertices(), 3), wall_thickness)
 walls = extrude(walls_shape - base, thickness)
 # walls = fillet(walls.edges().filter_by(Axis.Z), 3)
 
-walls -= wall_hole(walls, "left", usb_width + usb_extra_hole_width_padding, usb_height + usb_extra_hole_height_padding, usb_center_offset)
+walls -= wall_hole(walls, "left", usb_width, usb_height, usb_hole_width_padding, usb_hole_height_padding, usb_center_offset)
 
-walls -= wall_hole(walls, "left", button_width, button_height, button_center_offset)
-walls -= wall_hole(walls, "right", button_width, button_height, button_center_offset)
-walls -= wall_hole(walls, "left", button_width, button_height, -button_center_offset)
-walls -= wall_hole(walls, "right", button_width, button_height, -button_center_offset)
+walls -= wall_hole(walls, "left", button_width, button_height, button_hole_width_padding, button_hole_height_padding, button_center_offset)
+walls -= wall_hole(walls, "right", button_width, button_height, button_hole_width_padding, button_hole_height_padding, button_center_offset)
+walls -= wall_hole(walls, "left", button_width, button_height, button_hole_width_padding, button_hole_height_padding, -button_center_offset)
+walls -= wall_hole(walls, "right", button_width, button_height, button_hole_width_padding, button_hole_height_padding, -button_center_offset)
 
-walls -= wall_hole(walls, "right", power_width + power_extra_hole_width_padding, power_height + power_extra_hole_height_padding, power_center_offset)
+walls -= wall_hole(walls, "right", power_width, power_height, power_hole_width_padding, power_hole_height_padding, power_center_offset)
 
 re = Plane(walls_shape.edges().sort_by(Axis.X)[-1] @ 0.5)
 
