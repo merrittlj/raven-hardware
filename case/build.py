@@ -9,7 +9,7 @@ start_time = timeit.default_timer()
 pcb_width = 31.80
 pcb_height = 37.32
 
-button_cap_inside = 1.5
+button_cap_inside = 1 + 1.5
 
 side_padding = 0.5 + button_cap_inside
 bottom_side_padding = 0.5
@@ -74,17 +74,17 @@ component_level = bezel_thickness + epd_thickness + pcb_thickness
 # from outside of bezel to case edge
 wall_thickness = 1.75
 
-catch_extra_width = 1
-catch_extra_height = 1
+catch_extra_width = 0.75
+catch_extra_height = 0.75
 
-button_cap_reach = 2.5
-button_cap_clearance = 1
+button_cap_reach = 3
+button_cap_clearance = 0.25
 
 # power_cap_inside = 1
 # power_cap_reach = 1
 # power_cap_clearance = 0.1
 
-bottom_thickness = 0.7
+bottom_thickness = 1
 bottom_inside_thickness = 0.7
 
 print(f"lug to lug: {height + wall_thickness * 2 + holder_base * 2}")
@@ -193,6 +193,6 @@ top_holder = holder(walls, "top")
 bottom_holder = holder(walls, "bottom")
 holders = Compound(top_holder + bottom_holder)
 
-# model = Compound(bezel + walls + holders + caps + bottom)
-model = Compound(caps + bottom)
+model = Compound(bezel + walls + holders + caps + bottom)
+# model = Compound(caps + bottom)
 export_stl(model, "build.stl")
