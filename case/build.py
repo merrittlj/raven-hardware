@@ -85,13 +85,14 @@ catch_extra_height = 0.75
 button_cap_reach = 3
 button_cap_clearance = 0.5
 
-# power_cap_inside = 1
-# power_cap_reach = 1
-# power_cap_clearance = 0.1
+power_cap_inside_width = 1.3 + 0.1
+power_cap_inside_height = 1.3 + 0.1
+power_cap_expand = 1
+power_cap_length = 10
 
 bottom_thickness = 1
 bottom_inside_thickness = 0.7
-bottom_reduce = 0.2
+bottom_reduce = 0.125
 
 print(f"lug to lug: {height + wall_thickness * 2 + holder_base * 2}")
 print(f"thickness: {thickness + bottom_thickness}")
@@ -191,6 +192,10 @@ caps = Compound([
 # caps += Pos(Y=button_height * 8) * button_cap(power_width, power_height, power_cap_inside, power_cap_reach, power_cap_clearance)
 caps = re * Pos(X=30) * caps
 
+power_cap_inside = Rectangle(power_cap_inside_width, power_cap_inside_height)
+power_cap_shape = offset(power_cap_inside, power_cap_expand) - power_cap_inside
+power_cap = Plane.XY * Pos(X=125) * extrude(power_cap_shape, power_cap_length)
+
 bottom_base = extrude(walls_shape, bottom_thickness)
 inside = Plane(topf(bottom_base)) * extrude(offset(rounded_base, -bottom_reduce), bottom_inside_thickness)
 bottom = Compound([re * Pos(X=75) * (bottom_base + inside)])
@@ -199,6 +204,7 @@ top_holder = holder(walls, "top")
 bottom_holder = holder(walls, "bottom")
 holders = Compound(top_holder + bottom_holder)
 
-model = Compound(bezel + walls + holders + caps + bottom)
+# model = Compound(bezel + walls + holders + caps + bottom + power_cap)
 # model = (bezel + walls + holders)
+model = power_cap
 export_stl(model, "build.stl")
