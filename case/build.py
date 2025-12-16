@@ -65,10 +65,10 @@ lug_width = 18
 holder_width = width - 8 
 holder_height = thickness * 0.4
 holder_inside_width = lug_width + 0.2 
-holder_inside_base = 1 + 0.25
-holder_inside_outside = holder_inside_base + 0.75
+holder_inside_base = 3
+holder_inside_outside = 3
 holder_base = holder_inside_base + holder_inside_outside
-holder_drop = 3
+holder_drop = 6
 
 assert holder_inside_width < holder_width
 assert holder_width < width
@@ -199,6 +199,6 @@ top_holder = holder(walls, "top")
 bottom_holder = holder(walls, "bottom")
 holders = Compound(top_holder + bottom_holder)
 
-# model = Compound(bezel + walls + holders + caps + bottom)
-model = (bezel + walls + holders)
+model = Compound(bezel + walls + holders + caps + bottom)
+# model = (bezel + walls + holders)
 export_stl(model, "build.stl")
